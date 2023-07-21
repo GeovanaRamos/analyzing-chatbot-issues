@@ -1,0 +1,3417 @@
+,Repository,Title,Body,Link
+10,2019.1-ADA,Lista de repositórios : pegar apenas aqueles que o usuário é colaborador,"## Descrição da Issue
+Ao cadastrar um usuário no github e no gitlab, a Ada mostra para ele uma sequência de botões referentes aos repositórios dele, para que o usuário escolha um deles para ela monitorar.
+Nessa issue, deve-se apresentar somente os repositórios para os quais ele é colaborador.
+### Tasks: 
+
+- [x] Task 1: Encontrar os repositórios que o usuário é colaborador;
+- [x] Task 2: Atualizar os botões para apresentar esses repositórios;
+- [x] Task 3: Melhorar os testes, se necessário.
+
+### Critérios de aceitação
+
+- [x] Fluxo de conversa validado pelo PO;
+- [x] Task 1 concluída
+- [x] Task 2 concluída",https://github.com/fga-eps-mds/2019.1-ADA/issues/288
+11,2019.1-ADA,Criar explicações sobre como fazer algumas ações junto a Ada,"## Descrição da Issue
+Essa issue nasce do resultado das discussões da issue #277 , originária dos testes em uso #267. Seu objetivo consiste em entregar informações caso o usuário questione a Ada sobre como realizar determinadas atividades junto a Ada, como por exemplo, como criar uma issue.
+
+### Tasks: 
+- [x] Levantar ações que precisam ser explicadas
+- [x] Criar intents
+- [x] Formular respostas da Ada
+
+### Critérios de aceitação
+- [x] Validado pelo PO
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/286
+14,2019.1-ADA,"US40 - Eu, como usuário, desejo poder recadastrar meu repositório do Gitlab para o utilizar a Ada em outro repositório.","## Descrição da Issue
+Deve-se criar métodos para o recadastramento de repositório pelo usuário, do gitlab.
+
+### Tasks: 
+- [x] Métodos para o recadastramento do repositório no Gitlab;
+- [x] Fluxo de conversa de recadastramento na Ada.
+
+### Critérios de aceitação
+- [x] Recadastramento do Gitlab ocorrendo com sucesso;
+- [x] Fluxo de conversa intuitivo e natural na Ada pelo telegram.
+- [ ] Testes.",https://github.com/fga-eps-mds/2019.1-ADA/issues/278
+15,2019.1-ADA,Revisar fluxos para incluir também intenções do estilo comando,"## Descrição da Issue
+Conforme notado no #267 Teste em Uso, há vezes que desenvolvedores, acostumados a interagirem com tecnologias através de comandos, tentam replicar esse comportamento junto a Ada. Portanto, talvez seja interessante incorporar às intents tal comportamento.
+
+### Tasks: 
+- [ ] Revisar intents e incorporar comportamentos do estilo comando
+
+### Critérios de aceitação
+- [ ] Validado pelo PO
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/277
+18,2019.1-ADA,Aprimorar fluxo de conversa de retorno de colaboradores,"## Descrição da Issue
+No teste em uso realizado (#267), o fluxo de conversa quando se quer saber quem está colaborando no projeto (conforme história #234) não foi muito efetivo. O objetivo dessa issue é aprimorá-lo através de, por exemplo, criação de novas intents.
+
+### Tasks: 
+- [x] Criar novas intents para o retorno dos colaboradores
+
+### Critérios de aceitação
+- [x] Validação pelo PO do fluxo atualizado",https://github.com/fga-eps-mds/2019.1-ADA/issues/274
+19,2019.1-ADA,Aprimorar ajuda da Ada,"## Descrição da Issue
+Atualmente, a ajuda da Ada está desatualizada e, segundo os resultados do #267 Teste em Uso, pode ser aprimorada, guiando melhor o usuário.
+
+### Tasks: 
+- [x] Atualizar ajuda com as funcionalidades já existentes na Ada
+- [x] Segundo o teste em uso, há vezes em que usuário tenta pedir coisas a Ada da maneira exata que está escrita nos tópicos da sua mensagem de ajuda. Portanto, deve-se estruturar o texto (ou adicionar intents com o texto da ajuda) para que, quando ocorrer dos usuários copiarem o tópico da mensagem, receberem a resposta adequada
+
+> Nota: Muitas delas já funcionam da maneira que está, mas como foi identificada essa possibilidade, é importante que verifiquemos cada tópico de ajuda.
+
+### Critérios de aceitação
+- [x] Ajuda atualizada com as principais funcionalidades atuais da Ada
+- [x] Ada retornar resposta adequada sempre que um pedido por enviado da maneira que está escrita na mensagem de ajuda",https://github.com/fga-eps-mds/2019.1-ADA/issues/273
+23,2019.1-ADA,Melhoria no fluxo de conversa,"## Melhoria no fluxo de conversa
+
+## Descrição da Issue
+
+
+### Tasks: 
+
+- [x] Evitar que a Ada entre em um fluxo diferente ou não entenda quando o usuário der /start e /help.
+- [x] Remover slots desnecessários.
+- [x] Corrigir botões de repositórios que não são enviados.
+
+### Critérios de aceitação
+
+- [x] Validação do fluxo de conversa com o P.O.
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/265
+24,2019.1-ADA,"Melhorar comentário da Issue, por meio de reply","## Melhorar comentário da Issue, por meio de *reply*
+
+## Descrição da Issue
+Essa *issue* é uma melhoria da [US17](https://github.com/fga-eps-mds/2019.1-ADA/issues/227), referente ao usuário comentar em uma *issue* pela ADA. Nessa nova *issue* de melhoria, pretende-se fazer esse comentário por meio de um *reply* na mensagem de notificação de uma *issue*
+
+### Tasks: 
+
+- [x] Acessar a mensagem a partir da qual o *reply* foi feito para pegar o número da *issue*
+- [x] Com o número da issue fazer a requisição;
+- [x] Mudar a maneira de como a ADA entende a *intent*.
+
+### Critérios de aceitação
+
+- [x] Passar em todos os testes unitários;
+- [x] Validar fluxo de conversa com o P.O;
+- [x] Fazer com que a ADA comente a *issue* por meio do *reply*.
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/263
+25,2019.1-ADA,"US39 - Eu, como usuário, desejo poder recadastrar meu repositório do Github para o utilizar a Ada em outro repositório.","## Descrição da Issue
+Deve-se criar métodos para o recadastramento de repositório pelo usuário, do github.
+
+### Tasks: 
+- [x] Métodos para o recadastramento do repositório no Github;
+- [x] Fluxo de conversa de recadastramento na Ada.
+
+### Critérios de aceitação
+- [x] Recadastramento do Github ocorrendo com sucesso;
+- [x] Fluxo de conversa intuitivo e natural na Ada pelo telegram.
+- [x] Testes.",https://github.com/fga-eps-mds/2019.1-ADA/issues/262
+32,2019.1-ADA,"US25 - Eu, como usuário, desejo receber notificação de revisão de Pull Requests","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me notifique quando alguém solicitado realizar a revisão de um Pull Request que esteja no meu nome.
+### Tasks: 
+- [x] Montar fluxo de conversa no GitHub;
+- [x] Tratar Json recebido de acordo com evento disparado.
+
+### Critérios de aceitação
+- [x] O usuário deve ser notificado por via do telegram;
+- [x] Passar nos testes;
+- [x] Fluxo de conversa validado pelo PO.",https://github.com/fga-eps-mds/2019.1-ADA/issues/248
+33,2019.1-ADA,"US36 - Eu, como usuário, desejo que a Ada me informe quando uma issue for criada.","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me informe quando uma issue for criada no repositório cadastrado.
+
+### Tasks: 
+
+- [x] Elaborar fluxo de conversa
+- [x] Tratar json recebido de acordo com o evento disparado.
+
+### Critérios de aceitação
+
+- [x] Testes feitos
+- [x] Mensagens validadas
+- [x] Notificação funcionando",https://github.com/fga-eps-mds/2019.1-ADA/issues/247
+34,2019.1-ADA,"US33 - Eu, como usuário, desejo que a Ada me informe quando um comentário de issue for feito.","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me informe quando um comentário de issue for feito no repositório cadastrado.
+
+### Tasks: 
+
+- [x] Elaborar fluxo de conversa
+- [x] Tratar json recebido de acordo com o evento disparado.
+
+### Critérios de aceitação
+
+- [x] Testes feitos
+- [x] Mensagens validadas
+- [x] Notificação funcionando",https://github.com/fga-eps-mds/2019.1-ADA/issues/246
+35,2019.1-ADA,"US38 - Eu, como usuário, desejo que a Ada me informe quando um pull request for aberto para que eu tenha conhecimento do andamento do projeto.","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me informe quando um pull request for aberto para que eu tenha conhecimento do andamento do projeto.
+
+### Tasks: 
+- [x] Elaborar fluxo de conversa
+- [x] Tratar json recebido de acordo com o evento disparado.
+
+### Critérios de aceitação
+
+- [x] Testes feitos
+- [x] Mensagens validadas
+- [x] Notificação funcionando
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/245
+36,2019.1-ADA,"US37 - Eu, como usuário, desejo que a Ada me informe quando um pull request receber uma solicitação de revisão para que eu tenha conhecimento do andamento do projeto.","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me informe quando um pull request receber uma solicitação de revisão para que eu tenha conhecimento do andamento do projeto.
+### Tasks: 
+
+- [x] Elaborar fluxo de conversa
+- [x] Tratar json recebido de acordo com o evento disparado.
+
+### Critérios de aceitação
+
+- [x] Testes feitos
+- [x] Mensagens validadas
+- [x] Notificação funcionando
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/244
+37,2019.1-ADA,"US25 - Eu, como usuário, desejo que a Ada me informe quando um pull request criado por ou atribuído a mim receber uma revisão para que eu possa fazer as alterações necessárias.","## Descrição da Issue
+Eu, como usuário, desejo que a Ada me informe quando um pull request criado por ou atribuído a mim receber uma revisão para que eu possa fazer as alterações necessárias.
+
+### Tasks: 
+
+- [x] Elaborar fluxo de conversa
+- [x] Tratar json recebido de acordo com o evento disparado.
+
+### Critérios de aceitação
+
+- [x] Testes feitos
+- [x] Mensagens validadas
+- [x] Notificação funcionando
+
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/243
+40,2019.1-ADA,"US20 - Eu, como usuário, desejo que a Ada me informe as issues alocadas para um dos colaboradores que eu informar para auxiliar no gerenciamento de atividades.","
+## Descrição da Issue
+A Ada irá informar quais issues estão designadas para certo usuário a partir da solicitação do usuário pelo telegram
+
+### Tasks: 
+- [x]  Implementar a nova intent relacionada a essa história, bem como as mensagens prontas(utters), a nova action e os dados de treinamento;
+- [x]  Implementar a funcionalidade no microserviço do Github e fazer a integração correta entre os microserviços (Ada e Ada-Github), para que, ao fornecer o username desejado do github, o usuário receba quais issues estão designadas ao mesmo.
+
+### Critérios de aceitação
+- [x]  Ada entender corretamente e de forma natural que o usuário deseja saber quais issues estão designadas à certo desenvolvedor.
+- [x] Retornar corretamente ao usuário as issues de acordo com a entrada de username que ele passar.",https://github.com/fga-eps-mds/2019.1-ADA/issues/235
+41,2019.1-ADA,"US34 - Eu, como usuário, desejo que a Ada me informe os colaboradores do projeto para auxiliar no gerenciamento de atividades.","## Nome da Issue
+US34 Eu, como usuário, desejo que a Ada me informe os colaboradores do projeto para auxiliar no gerenciamento de atividades.
+
+## Descrição da Issue
+Como parte de um time de desenvolvimento de um software, o usuário pode querer saber quem são os outros colegas de trabalho dele, ou seja, ou outros colaboradores do projeto.
+Dessa forma, ele pode perguntar isso para a Ada, e ela deve buscar essas informações e retornar ao usuário.
+
+### Tasks: 
+
+- [x] Implementar a nova intent relacionada a essa história, bem como as mensagens prontas(utters), a nova action e os dados de treinamento;
+- [x] Criar esse novo serviço da Ada, a partir da ada-github, contruindo uma rota adequada para a funcionalidade e o código para gerar a resposta para a Ada;
+- [x] Receber a resposta da ada-github e repassar ao usuário de forma mais natural possível e sabendo das possíveis respostas a serem recebidas ;
+
+### Critérios de aceitação
+
+- [x] Funcionalidade funcionando conforme o esperado pelos desenvolvedores e pelos usuários;
+- [x] Fluxo de conversa validado pelo PO;
+- [x] Sucesso dessa pipeline no GitLab CI da Ada;
+- [x] Sucesso dos testes unitários dessa funcionalidade.",https://github.com/fga-eps-mds/2019.1-ADA/issues/234
+42,2019.1-ADA,"US35 - Eu, como usuário, desejo que a Ada cadastre a minha url do deploy do meu projeto.","Nessa issue deve ser feito o cadastro da url (deploy do usuário).
+
+### Tasks: 
+Todas as atividades a serem realizadas devem estar elencadas em tópicos e ao serem finalizadas devem receber um check.
+
+- [x] Deve ser adicionado um fluxo de conversa para o usuário.
+- [x] Deve ser cadastrado a url do usuário.
+
+### Critérios de aceitação
+
+- [x] O usuário deve ser capaz de cadastrar seu url.
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/232
+47,2019.1-ADA,"US17 - Eu, como usuário, desejo que a Ada faça um comentário na issue por mim para entrar em contato com os mantenedores do repositório de maneira mais fácil.","## Descrição da Issue
+Implementar no Microserviço AdaGithub e no AdaRasa a funcionalidade de comentar uma issue a partir da conversa pelo telegram.
+
+### Tasks: 
+- [x] Implementação dos métodos de criação no GitHub
+- [x] Implementação do fluxo de conversa no AdaRasa
+
+### Critérios de aceitação
+- [x] Ada comenta em issues
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/227
+53,2019.1-ADA,"US24 - Eu, como usuário, desejo que a Ada configure no pipeline de deploy a última versão estável do repositório para recolocar o serviço no ar.","## Nome da Issue
+
+US24 - Eu, como usuário, desejo que a Ada verifique qual é a última versão estável do meu projeto e faça o deploy dela.
+
+## Descrição da Issue
+
+Quando o projeto do usuário vai para produção, ou seja, para testes e deploy, pode ser que ele falhe. Nesse caso, o usuário pode pedir à Ada para que ela encontre a versão estável mais recente do projeto dele, correspondente à última pipeline que obteve sucesso no GitLab CI, e a reinicie, ou seja, faça uma requisição à API do GitLab CI para rodar essa pipeline de novo. Esse processo corresponde ao deploy da versão estável mais recente do projeto do usuário.
+
+### Tasks: 
+- [x] 1. A partir do pedido do usuário, reconhecer que ele quer realizar o deploy da versão mais recente e estável do projeto dele;
+- [x] 2. Ada deve fazer uma requisição ao microserviço ada-gitlab para que essa versão(pipeline) seja reiniciada; 
+- [x] 3. O microserviço ada-gitlab faz o deploy dessa versão, via API do GitLab CI, e comunica para a Ada se obteve sucesso ou não
+- [x] 4. Ada recebe a informação de sucesso ou não do deploy e comunica ao usuário
+- [x] 5. Codar os testes unitários
+- [x] 6. Testar tudo via telegram
+
+### Critérios de aceitação
+
+- [x] A nova intent deve ser adicionada aos arquivos de domain, stories e intents
+- [x] A nova action referente à intent deve estar funcionando
+- [x] O microserviço ada-gitlab deve estar atualizado para realizar essa user story 
+- [x] Fluxo de conversa validado pelo PO
+- [x] Códigos devem passar nos testes unitários e de flake8",https://github.com/fga-eps-mds/2019.1-ADA/issues/213
+54,2019.1-ADA,"US28 - Eu, como usuário, desejo receber um relatório informativo de um repositório cadastrado do GitHub","## Descrição da Issue
+Ao conversar com a Ada, o usuário pode pedir para que ela gere um relatório com as informações (Branches, releases, pull request's, issues, collaborators) do repositório cadastrado. Então, a Ada deve buscar essas informações dentro do GitHub por meio de requisições e montar um relatório informativo.
+
+### Tasks: 
+- [x] Fazer requisições a API do GitHub;
+- [x] Montar JSON com as informações necessárias;
+- [x] Enviar o relatório do repositório cadastrado para a ADA.
+
+### Critérios de aceitação
+- [x] Fluxo de conversa validado com o PO;
+- [x] Requisição a API do GitHub feita corretamente;
+- [x] Validação em todos os testes unitários.",https://github.com/fga-eps-mds/2019.1-ADA/issues/212
+63,2019.1-ADA,"US14 -Eu, como usuário, desejo ser notificado quando a Ada demorar a recuperar informações para saber o status da minha requisição.","### Tasks: 
+
+- [x] Fluxo de conversa validado
+- [x] Informar ao usuário sobre a demora de respostas com seu devido status de andamento
+
+### Critérios de aceitação
+
+- [x] De acordo com o tempo máximo estipulado
+- [x] Validação",https://github.com/fga-eps-mds/2019.1-ADA/issues/196
+64,2019.1-ADA,Melhora no mapeamento de fluxo de conversas,"### Tasks: 
+- [x] Aprimorar diagrama de fluxo de conversa.
+
+### Critérios de aceitação
+- [x] Subir para o gh-pages;
+- [x] Estar de acordo com a paleta de cores.
+- [x] Validação.",https://github.com/fga-eps-mds/2019.1-ADA/issues/195
+71,2019.1-ADA,"US06 - Eu, como usuário, desejo que a Ada cadastre meu usuário no GitHub","## Descrição da Issue
+Ao conversar com a Ada, o usuário pode cadastrar seu usuário no GitHub.
+
+### Tasks: 
+
+- [x] Fazer requisição à API do GitHub
+- [x] Criação do GitHub App
+
+### Critérios de aceitação
+
+- [x] Validação em todos os testes
+- [x] Cadastro realizado por meio de autenticação
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/183
+72,2019.1-ADA,"US12 - Eu, como usuário, desejo saber as informações sobre os serviços que a Ada oferece.","## Nome da Issue
+- US12 - Eu, como usuário, desejo saber as informações sobre os serviços que a Ada oferece. 
+
+## Descrição da Issue
+
+O usuário pode perguntar para a Ada como ela pode ajudá-lo, ou seja, quais atividades ela faz. Assim, a Ada deve mandar uma mensagem para ele, parecida com uma mensagem de 'help', o informando sobre o que ele pode pedir para ela.
+
+### Tasks: 
+
+- [x] Melhorar a intent 'help' na domain.yml e na general.md
+- [x] Testar a conversa, para ver se a Ada está respondendo corretamente
+- [x] Melhorar as stories.md , se necessário.
+
+### Critérios de aceitação
+
+- [x] Ada respondendo corretamente
+- [x] Revisão pelo PO",https://github.com/fga-eps-mds/2019.1-ADA/issues/182
+80,2019.1-ADA,"US16 - Eu, como usuário, desejo que a Ada crie uma issue para mim para reportar algo aos mantenedores do repositório de maneira mais fácil.","## Descrição da Issue
+Ao conversar com a Ada, o usuário pode criar issues do repositório cadastrado no GitHub.
+
+### Tasks: 
+
+- [x] Fazer requisição à API do GitHub
+- [x] Pegar OAUTH Token GitHub
+
+### Critérios de aceitação
+
+- [x] Validação em todos os testes
+- [x] Criação realizada por meio de conversas no Telegram
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/156
+81,2019.1-ADA,Criar mapeamento de conversa entre usuário e bot,"## Criar mapeamento de conversa entre usuário e bot
+
+## Descrição da Issue
+Para cada possível requisição do usuário, criar um diagrama mostrando intenção do usuário e resposta do bot.
+### Tasks: 
+- [x] Criar diagrama de fluxo de conversa.
+
+### Critérios de aceitação
+- [x] Subir para o gh-pages;
+- [x] Estar de acordo com a paleta de cores.",https://github.com/fga-eps-mds/2019.1-ADA/issues/155
+87,2019.1-ADA,Atualizar protótipo de alta fidelidade,"## Descrição da Issue
+Remodelar protótipo de alta fidelidade de acordo com a situação atual da Ada.
+### Tasks: 
+- [x] Produzir um novo protótipo com fluxo de conversa atual.
+
+### Critérios de aceitação
+- [x] Validação do fluxo de conversas.",https://github.com/fga-eps-mds/2019.1-ADA/issues/136
+88,2019.1-ADA,"US30 - Eu, como usuário, desejo receber o relatório informativo de um repositório específico do GitLab.","## Descrição da Issue
+Ao conversar com a Ada, o usuário pode pedir para que ela gere um relatório com as informações {preencher} do repositório cadastrado. Então, a Ada deve buscar essas informações dentro do GitLab por meio de requisições e montar um pequeno relatório em um arquivo com a extensão a definir.
+
+Nesse arquivo,  um gráfico com as informações {tal} x  {tal} deve ser apresentado.   
+
+### Tasks: 
+Todas as atividades a serem realizadas devem estar elencadas em tópicos e ao serem finalizadas devem receber um check.
+- [x] fazer requisição à API do GitLab
+- [x] montar JSON com os dados do relatório
+
+### Critérios de aceitação
+Caso os critérios de aceitação já tenham sido claramente definidos pela equipe, sobretudo pelo Product Owner, acrescentá-los na forma a seguir. Caso contrário, estes devem ser adicionados em um comentário pelo PO.
+
+- [x] utils.py e views.py funcionando
+- [x] requisição à API da Ada feita corretamente",https://github.com/fga-eps-mds/2019.1-ADA/issues/135
+91,2019.1-ADA,Receber dados do usuário de forma natural,"## Descrição da Issue
+Receber o nome de usuário do GitLab e do repositório de forma mais natural
+
+### Tasks: 
+- [x] Reconhecer nome de usuário e nome de repositório;
+- [x] Adicionar valores nos slots do Rasa;
+- [x] Definir o fluxo de conversa.
+
+### Critérios de aceitação
+
+- [x] Fluxo de conversa validado
+- [x] Todos testes (flake8 e unitários) passando
+- [x] Reconhecer nome de usuário e repositório de maneira natural através de @ ou outro meio",https://github.com/fga-eps-mds/2019.1-ADA/issues/132
+101,2019.1-ADA,Refatorar fluxos de conversa,"## Descrição da Issue
+Refatorar e evoluir fluxos de conversa da Ada
+
+### Tasks: 
+- [x] Arrumar /start da Ada.
+- [x] Refatorar fluxos já existentes que precisam
+- [x] Construir novos fluxos que tornem a conversa com a Ada mais natural (basear-se nos fluxos existentes do Bot inicial, e.g., usuário estar triste, piada, etc).
+
+### Critérios de aceitação
+- [x] /start da Ada em funcionamento
+- [x] Pelo menos dois novos fluxos que tornem a conversa com a Ada mais natural, correspondentes à sua personalidade.
+- [x] Fluxos validados.
+- [x] Teste flake8 passando.
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/112
+103,2019.1-ADA,"US07 - Eu, como usuário, desejo ser notificado sobre o resultado de builds para saber o estado de integração contínua.","## Descrição da Issue
+Eu, como usuário, desejo ser notificado sobre o resultado de builds para saber o estado de integração contínua.
+
+Sempre que uma build termina, o usuário é notificado se a build terminou com sucesso ou falhou.
+
+### Tasks: 
+- [x] Criar fluxo de conversa: Ada notifica usuário sobre o resultado da build
+- [x] Implementar requisição à API do GitLab para receber o resultado de uma build
+- [x] Implementar notificação ao usuário 
+
+### Critérios de aceitação
+- [x] Fluxo de conversa validado
+- [x] Notificação em funcionamento (notifica sucesso ou falha da build)
+- [x] Todos testes (flake8 e unitários) passando
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/110
+104,2019.1-ADA,"US09 - Eu, como usuário, desejo saber o estágio da build para saber o andamento do processo.","## Descrição da issue
+Eu, como usuário, desejo saber o estágio da build para saber o andamento do processo.
+
+Quando há uma build em andamento, o usuário pode perguntar à Ada o estágio (Job, e.g.., testes) que a build está na ferramenta de integração contínua. Caso haja mais de uma, ele informa o estágio de todas em andamento. Caso não haja nenhuma, a Ada informa que não há builds em andamento.
+
+> Os jobs se referem aos passos da build definidos na ferramenta de integração contínua pelo usuário.
+
+### Tasks: 
+- [x] Criar fluxo de conversa: usuário pergunta estágio da build x ada responde
+- [x] Implementar requisição à API do GitLab
+- [x] Implementar notificação ao usuário
+
+### Critérios de aceitação
+- [x] Fluxo de conversa validado
+- [x] Resposta ao usuário sobre o estágio da build em funcionamento
+- [x] Todos testes (flake8 e unitários) passando
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/109
+116,2019.1-ADA,"US04 - Eu, como usuário, desejo ser cumprimentado pela Ada para iniciar uma conversa.","## Descrição da Issue
+Eu, como usuário, desejo ser cumprimentado pela Ada para iniciar uma conversa.
+
+### Tasks: 
+
+- [x] Elaborar roteiro
+
+### Critérios de aceitação
+
+- [x] Interação condizente com a personalidade da ADA
+- [x] Estar em Português Brasileiro
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/87
+130,2019.1-ADA,"DS11 - Eu, como desenvolvedor, quero conectar o Rasa ao Telegram para que a Ada possa conversar com o usuário.","## Descrição da Issue
+Fazer conexão do Rasa ao Telegram para que a Ada possa conversar com o usuário.
+
+### Tasks: 
+- [x] Estabelecer a conexão do Rasa ao Telegram
+",https://github.com/fga-eps-mds/2019.1-ADA/issues/56
+131,2019.1-ADA,"DS05 - Eu, como desenvolvedor, desejo criar um protótipo da Ada, para compreender melhor suas interações e interface.","## Descrição da Issue
+Criar protótipo de alta fidelidade para representar a interação do usuário com a ADA.
+
+### Tasks: 
+- [x] Utilizar ferramenta adequada para criação de protótipos de Bot.
+- [x] Aplicar personalidade da ADA nos textos.
+- [x] Criar um ou mais fluxos de conversa.",https://github.com/fga-eps-mds/2019.1-ADA/issues/55
+160,2019.1-ADA,Criação do template de commits,"Nessa issue deve ser realizada a criação do template de commits. O template deve conter o passo a passo de como deve ser feito um commit.
+
+### Task
+- [x] Elaboração do template de commits, desde o conteúdo da mensagem até a conjugação verbal.",https://github.com/fga-eps-mds/2019.1-ADA/issues/6
+173,2022-2-Bote,Decidir o flow da conversa com o bot dos alunos,"# Descrição
+
+Os alunos também precisam ter uma conversa interessante e intuitiva para acessar os conteúdos dos cursos
+
+# Necessidades
+
+* Decidir as perguntas possíveis de serem feitas ao bot e as respostas que o bot poderá dar a cada uma
+* Decidir se haverá a necessidade de botões em alguns locais e aonde
+* Decidir as implementações e interações com o backend",https://github.com/fga-eps-mds/2022-2-Bote/issues/25
+174,2022-2-Bote,Decidir flow da conversa com o bot de criação dos cursos,"# Descrição
+
+Para podermos começar o desenvolvimento do bot, precisamos decidir como a conversa com o bot deverá proceder
+
+# Necessidades
+
+* Decidir as perguntas e respostas que o bot dará
+* Decidir se haverá botões e quais os textos
+* Documentar as implementações",https://github.com/fga-eps-mds/2022-2-Bote/issues/24
+184,2022-2-Bote,Implementar as mensagens e botões de interação com o aluno,"# Descrição
+
+De acordo com o que foi discutido em #25 , é preciso que implementemos a base da interação com o aluno, seja em entrar no curso ou acompanhar as aulas
+
+# Tarefas
+
+- [x] Criar a conversa inicial
+- [x] Lidar com o usuário entrando novamente no /start
+- [x] Permitir a entrada nos cursos
+- [x] Lidar com falta do código do curso
+- [x] Lidar com senha errada do curso
+- [x] Criar um menu principal com acesso aos cursos do indivíduo
+- [ ] Mostrar os dados do curso escolhido no menu
+- [ ] Mostrar em qual aula ele está e o seu progresso
+",https://github.com/fga-eps-mds/2022-2-Bote/issues/14
+185,2022-2-Bote,Implementar a adição dos dados do curso por arquivos do excel,"# Descrição
+
+Precisamos de guardar os arquivos mandados pelo professor com os alunos e os links dos videos em uma coleção do firestore
+
+# Tarefas
+
+* Estudar a [documentação](https://firebase.google.com/docs/firestore/quickstart) de como adicionar uma coleção ao firestore em python
+
+* Criar uma forma de o usuário enviar o arquivo pelo telegram e salvar os dados no Firestore
+
+* Lidar com a possibilidade de o arquivo conter apenas os links, os alunos, as mensagens de texto base ou todos juntos
+
+* (*Opcional) Adicionar uma forma de o usuário especificar quando mandar a mensagem de início do curso e definir essa mensagem
+
+
+# Critérios de aceitação
+
+A ser definido.",https://github.com/fga-eps-mds/2022-2-Bote/issues/13
+190,2022-2-Bote,Exemplos de curso via chat: Larissa e Brunna,"# Descrição
+>**Frente de estudo:**
+>Exemplos de curso via chat: encontrar exemplos de bots que já fazem algo que procuramos desenvolver ou que faz algo parecido e que serviria de base para nosso modelo. Encontrar imagens ou fazer prints de casos de uso que forem encontrados.
+
+Fazer o levantamento de épicos/features para o projeto. Pesquisar sobre cursos que utilizam a plataforma do telegram ou whatsapp para formação de alunos, e ver a estrutura de mensagens utilizada para o andamento do curso.
+
+# Tarefas
+- [x] Ter contato com um curso ou experiência relacionada
+- [x] Relatar ao grupo a experiência de usuário
+- [x] Disponibilizar prints da utilização ou mostrar o andamento do curso por outros meios
+
+# Critérios de aceitação
+- Acho que está bem definido nas tarefas, qualquer coisa poderá ser conversado em grupo posteriormente.",https://github.com/fga-eps-mds/2022-2-Bote/issues/8
+193,2022-2-Bote,Reunião Carla - Estrutura do bot e casos de uso,"# Descrição
+No dia 8 de novembro, fiz uma reunião com a @RochaCarla para saber alguns detalhes do projeto e verificar as funcionalidades necessárias para que os requisitos e funcionalidades do bot solicitado para enviar conteúdos no Telegram esteja de acordo com a linha do tema proposto e pelo problema a ser resolvido. A Carla ficou de disponibilizar os dados referentes a caso de uso que foi citado.
+
+A seguinte jornada de usuário foi levantada: __A pessoa conversa com o bot, e responde qual módulo quer estudar, e em qual parte do módulo quer estar.__ Não faz parte do escopo necessário para completude do projeto, colocar o andamento do aluno numa planilha para controle do professor, o mais importante é que o aluno consiga receber os links e mídias corretos de acordo com o que ele solicitou nas mensagens. As mídias recebidas são adaptadas para que o conteúdo seja consumido na tela do celular, tanto por links, vídeos, arquivos, e outras mídias. 
+
+# Tarefas
+- [ ] Disponibilização da @RochaCarla dos dados e mídias referentes ao caso de uso que utiliza o bot.
+
+# Critérios de aceitação
+- Dados disponibilizados.
+- Mas se não tiver os dados também a gente se vira e segue o baile, porque quem demorou pra criar a issue fui eu.",https://github.com/fga-eps-mds/2022-2-Bote/issues/3
+197,2019.1-Aix,Refatorar intents do UVa,"Refatoração das intentes das actions relacionadas ao UVa, visto que a confiabilidade nessas intents está muito baixa.
+**Tarefas**
+
+- [ ] Refatorar intents da Action de Feedback do UVa
+- [ ] Refatorar intents da Action de Submissão do UVa
+- [ ] Refatorar intents da Action de Login do UVa
+
+**Critérios de aceitação**
+
+- [ ] O alcance do bot em relação a assuntos do UVa está melhor",https://github.com/fga-eps-mds/2019.1-Aix/issues/471
+200,2019.1-Aix,Refatorar intents,"Alguns usuários não conseguiram chegar ao contéudo de strings e funções. Seria bom analisar as outras intents também.
+
+**Tarefas**
+
+- [x] Refatorar intents.
+
+**Critérios de aceitação**
+
+- [x] O bot deve ser capaz de reconhecer melhor o conteúdo solicitado.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/445
+201,2019.1-Aix,Melhorar intents para entrada de dados do usuário,"Alguns usuários relataram não conseguir chegar ao conteúdo de entrada de dados.
+
+**Tarefas**
+
+- [ ] Melhorar intents de entrada de dados.
+
+**Critérios de aceitação**
+
+- [ ] O bot deve ser capaz de entender quando o usuário solicita sobre entrada de dados de usuário.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/444
+202,2019.1-Aix,Refatorar intents da utter sobre aix,"No teste de usabilidade nenhum usuário conseguiu chegar na história de quem é a aix.
+
+**Tarefas**
+
+- [x] Adicionar intents de sobre aix.
+
+**Critérios de aceitação**
+
+- [x] O bot deve ser capaz de reconhecer solicitações de explicação sobre quem ela é.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/443
+203,2019.1-Aix,Refatorar utters de desafio,"Refatorar utter de desafios para conseguir induzir o usuário melhor nos processos de submissão do exercício
+
+**Tarefas**
+
+- [ ] Refatorar utters de desafio
+
+**Critérios de aceitação**
+
+- [ ] Usuário conseguir submeter o exercicio entendendo todos o passo a passo necessário.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/442
+204,2019.1-Aix,Refatorar final das utters para que recomende o próximo conteúdo,"Foi relatado por alguns usuários que algumas utters não estavam informando o próximo conteúdo.
+
+**Tarefas**
+
+- [x] Verificar quais são essas utters que não estão sugerindo o próximo conteúdo e adicionar.
+
+**Critérios de aceitação**
+
+- [x] Todas as utters de conteúdo devem sugerir o próximo conteúdo.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/441
+209,2019.1-Aix,Refatorar intents do cronograma,"Deve ser mais fácil chegar ao cronograma seguindo os padrões falados pelo bot.
+
+**Tarefas**
+
+- [x] Refatorar intents do cronograma.
+
+**Critérios de aceitação**
+
+- [x] Se o usuário digitar padrões mostrados na conversa deve conseguir chegar ao cronograma.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/436
+210,2019.1-Aix,Refatorar sugestão de como pesquisar no stack overflow,"Refatorar a sugestão de pesquisa do stackoverflow
+
+**Tarefas**
+
+- [x] Refatorar utter de sugestão de como pesquisar no stack overflow.
+
+**Critérios de aceitação**
+
+- [x] O bot deve sugerir que a pesquisa seja feita em inglês.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/435
+211,2019.1-Aix,Adicionar instalação pra outros SOs,"Adicionar tutorial para instalação de python em outros SOs
+**Tarefas**
+
+- [ ] Refatorar a utter de instalação de python.
+
+**Critérios de aceitação**
+
+- [ ] A utter deve ensinar a instalar python em outras distros.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/434
+224,2019.1-Aix,Refatorar analisador da domain,"Na sprint passada foi feito um analisador da domain.yml com o objetivo de procurar por erros de sintaxe na domain e assim evitar que o bot seja quebrado. Alguns problemas foram encontrados ao analisar os textos das utters sendo necessário trocar a estrutura geral de textos da domain. Esta refatoração deve conseguir analisar a domain refatorada na issue #401 .
+
+**Tarefas**
+
+- [x] Refatorar o arquivo bot/comp.py
+
+**Critérios de aceitação**
+
+- [x] A refatoração deve ser compatível com a nova domain da issue #401 .
+- [x] Se tudo estiver funcionando perfeitamente o analisador deve ser incluso no Travis.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/408
+225,2019.1-Aix,Refatoração de direcionamentos,"Refatorar stories e intents, visando um melhor funcionamento do nosso bot, observando erros de interpretação do nosso bot.
+
+**Tarefas**
+
+- [x] Observar erros de direcionamento do bot.
+- [x] Refatorar stories.
+- [x] Refatorar intents.
+
+**Critérios de aceitação**
+
+- [x] Bot se comunicando bem por meio de diversos tipos de entrada do usuário.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/407
+231,2019.1-Aix,Refatorar arquivo Domain.yml,"Refatorar Arquivo de domain a fim de melhorar informações referentes ao conteúdo e disposição de estrutura do arquivo. Além da refatoração comum será feita uma refatoração na estrutura da domain para que seja analisável pelo ""compilador"" criado na issue #369 . Este compilador também será refatorado para que esteja compatível com essa nova domain.
+
+**Tarefas**
+
+- [x] Refatorar documento a fim de melhorar estrutura do arquivo
+- [x] Analisar conteúdos a fim de reduzir utters muito grandes ou quebra-las em partes
+- [x] Analisar conteúdo a fim de corrigir erros de português
+- [x] Refatorar disposição de texts na domain
+
+**Critérios de aceitação**
+
+- [x] Conteúdo do bot revisado e atualizado
+- [x] Conteúdo deve ser compatível com o analisador da issue #408 .
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/401
+232,2019.1-Aix,Configurar o ElasticSearch e o Kibana,"Configurar as ferramentas de ElasticSearch e Kibana para visualização das estatísticas das conversas.
+
+**Tarefas**
+
+- [x] Configurar o ElasticSearch.
+- [x] Configurar o Kibana.
+
+**Critérios de aceitação**
+
+- [x] Ser capaz de visualizar as estatísticas a partir do kibana.",https://github.com/fga-eps-mds/2019.1-Aix/issues/386
+236,2019.1-Aix,Implementação do CustomFormAction,"Implementar um FormAction adaptado as alterações necessárias para o projeto.
+
+**Tarefas**
+
+- [x] Implementar o CustonFormAction a partir do estudo realizado
+
+**Critérios de aceitação**
+
+- [x] Bot ser capaz de recolher o texto do usuário ao invés de tentar extrair o Slot
+- [x] Bot retornar mensagem customizada ao não conseguir extrair o texto
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/380
+238,2019.1-Aix,Teste das Custom Actions de Intent vaga,"Aplicar teste unitário nas classes responsáveis por intents vagas, do arquivo de actions.
+
+**Tarefas**
+
+- [x] Testar funções da classe ActionSetSlotValue
+- [x] Testar funções da classe ActionUtterVaga
+- [x] Testar funções da classe ActionUtterSobreVaga
+- [x] Testar funções da classe ActionUtterExemploVaga
+- [x] Testar funções da classe ActionUtterCodigoEmPythonVaga
+- [x] Testar funções da classe ActionUtterExerciciosVaga
+- [x] Testar funções da classe ActionUtterConteudoExtraVaga
+
+**Critérios de aceitação**
+
+- [ ] Classes testadas com no mínimo 90% de cobertura de teste.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/378
+244,2019.1-Aix,Refatorar feedback do uva,"Feedback ao pegar o resultado da questão (Wrong answer, tle, etc) especificar apenas do que se trata o erro e retornar uma mensagem de indução do fluxograma para uma resposta incorreta e outra para resposta correta.
+
+**Tarefas**
+
+- [x]  Acrescentar uma mensagem para respostas incorretas e outra para questões corretas. 
+- [x] Explicar apenas do que se trata o erro correspondente, visando não encher o usuário de conteúdos desnecessários.
+
+**Critérios de aceitação**
+
+- [x]  Bot se comunicando bem por meio de diversos tipos de saídas no feedback.
+- [x]  Diferentes respostas para diferentes situações.",https://github.com/fga-eps-mds/2019.1-Aix/issues/372
+245,2019.1-Aix,Otimizar criação de intents,"Otimizar a criação de intents devido a grande dificuldade encontrada pelo grupo na formação desse tópico para cada conteúdo.
+
+**Tarefas**
+
+- [x]  Automatizar parte do processo de criação de intents. 
+
+**Critérios de aceitação**
+
+- [x]  Código elaborado capaz de concatenar sentenças a palavras-chave.
+- [x]  Código implementado no projeto para auxiliar a criação de intents.",https://github.com/fga-eps-mds/2019.1-Aix/issues/371
+248,2019.1-Aix,Refatoração de intents e utters do bot de acordo com feedback dos usuários,"Refatoração de intents do bot, conforme o feedback dos usuários.
+
+**Tarefas**
+
+- [x] Evoluir arquivo de intents
+- [x] Evoluir arquivo das utters
+
+**Critérios de aceitação**
+
+- [x] Bot se comunicando bem por meio de diversos tipos de entrada do usuário
+- [x] Bot transmitindo o conteúdo de forma objetiva e sucinta
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/348
+250,2019.1-Aix,Inserir conteúdo sobre inserção de dados pelo usuário,"Auxiliar o usuário na construção de um código que leia entrada de dados (texto, números, caracteres, etc..)
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a auxiliar o usuário na construção de um programa que leia dados do usuário.
+
+- [x] Fazer isso por meio da criação de intents para cada ação do bot 
+       
+**Critérios de aceitação**
+
+- [x] Bot capaz de guiar usuário na criação de um programa que leia a entrada do usuário.
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/346
+252,2019.1-Aix,Adicionar tópico com explicação do que é o Stack Overflow,"Adicionar tópico explicando a definição do Stack Overflow e o que ele é
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a definição do Stack Overflow
+- [x] Inserir conteúdo referente a definição do Stack Overflow. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/344
+256,2019.1-Aix,Refatoração do fluxograma das utters,"Refatoração do fluxograma das utters, elaborar o mapa e verificar se nada está fora do fluxo.
+
+**Tarefas**
+
+- [x] Criar um documento de um mapa visual do caminho das utters
+- [x] Adaptar o fluxograma dentro do bot
+
+**Critérios de aceitação**
+- [x] Aix ser capaz de guiar o usuário de forma objetiva
+- [x] Mapa visual do caminho voltado para possibilitar adaptações futuras
+- [x] Documentar na issue o conteúdo inserido",https://github.com/fga-eps-mds/2019.1-Aix/issues/340
+259,2019.1-Aix,"Refatorar, na saudação, as funcionalidades do bot","Refatorar as utters de saudação e /help para que as funcionalidades e incapacidades do bot estejam mais claras para o usuário.
+
+**Tarefas**
+
+- [x] Refatorar as Utters mostrando com mais clareza as capacidades do bot.
+
+**Critérios de aceitação**
+
+- [x]  Aix ser capaz de responder de forma clara suas capacidades.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/337
+262,2019.1-Aix,Adicionar tópicos de códigos na prática relacionados aos exemplos de cada conteúdo,"Adicionar tópicos de códigos na prática relacionados aos exemplos de cada conteúdo. 
+
+**Tarefas**
+
+- [ ] Incluir aos exemplos um código relacionado aos exemplos, para o usuário testar durante a compilação
+- [ ] Adaptar o que foi acrescentando ao fluxograma de utters
+
+**Critérios de aceitação**
+
+- [ ] Aix ser capaz de responder este tópico
+- [ ] Conteúdo não reduzir precisão de resposta para outro tópico
+- [ ] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/334
+265,2019.1-Aix,Refatoração da GhPages,"Refatorar GhPages de acordo conteúdos inseridos afim de atomizar o conjunto de documentos presentes.
+
+**Tarefas**
+
+- [x] Atomizar a criação de tópicos do conjunto de documentos
+- [x] Criar fluxo de conversa para divulgar Aix na página inicial
+
+**Critérios de aceitação**
+
+- [x] GhPages atualizada
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/323
+270,2019.1-Aix,Realizar a construção estática de envio de exercício do UVA online judge,"Realizar a construção estática de envio de exercícios no formato de PDF do UVA no bot
+
+**Tarefas**
+
+- [x] Selecionar os exercícios para cada conteúdo que o bot é capaz de dialogar no UVA
+- [x] Selecionar níveis diferentes para cada conteúdo presente no bot (Estruturas de Repetição: Nível 1, Nível 2...)
+- [x] Reestruturar utter de sugestão de exercícios de forma a possibilitar e induzir o usuário a solicitar os exercícios de cada conteúdo de acordo com o nível.(Apresenta os níveis de exercícios existentes e pede para que o usuário selecione o desejado)
+- [x] Criar utter para cada envio de arquivo em pdf para cada nível de exercício para determinado conteúdo.
+
+**Critérios de aceitação**
+
+- [x] Usuário ser capaz de selecionar o nível de exercício que deseja solucionar e submeter no bot
+- [x] Usuário consiga de forma intuitiva entender que pode escolher o nível de exercício que deseja solucionar
+- [x] Usuário receber pdf com o exercício proposto
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/318
+273,2019.1-Aix,Definição de melhorias no bot baseado no teste de usabilidade aplicado,"Aplicar melhorias no fluxo e conversação da Aix baseado no feedback obtido por meio da aplicação do teste de usabilidade
+
+**Tarefas**
+
+- [x] Analisar documento gerado pelo teste de usabilidade
+- [x] Analisar formulário aplicado para obter quais melhorias devem ser aplicadas no bot 
+- [x] Documentar as melhorias a serem aplicadas
+
+**Critérios de aceitação**
+
+- [x] Documento de teste de usabilidade atualizado com melhorias a serem aplicadas para próxima sprint
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/315
+276,2019.1-Aix,Comunicação com parte gerenciadora da API do URI para análise de viabilidade técnica de integração,"Comunicação com parte gerenciadora da API do URI para análise de viabilidade técnica de integração.
+
+**Tarefas**
+
+- [x] Enviar Email para saber sobre permissão e receber autorização de utilização da API
+
+**Critérios de aceitação**
+
+- [x] Documentar na issue a resposta obtida",https://github.com/fga-eps-mds/2019.1-Aix/issues/312
+284,2019.1-Aix,Teste do uso de Slots para Intents,"Atualizar o bot para que ele use os Slots para detectar qual conteúdo o usuário deseja saber sobre ao invés de diversas intents repetidas para cada conteúdo abordado pelo mesmo.
+
+**Tarefas**
+
+- [x] Atualizar as intents para habilitar o uso de slots
+- [x] Modificar stories para novo formato
+- [x] Fazer teste para verificar o funcionamento
+
+**Critérios de aceitação**
+
+- [x] Matriz de confusão da Aix estar melhor do que no modelo anterior
+
+**Observações**
+- A branch dessa issue ficará aberta para testes futuros.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/291
+298,2019.1-Aix,Estudar ferramenta Kibana e ElasticSearch ,"Estudar o funcionamento das ferramentas para análise de dados Kibana e ElasticSearch para refinar melhor os dados recebidos pelo bot.
+
+**Tarefas**
+
+- [x] Estudar funcionamento das ferramentas Kibana e ElasticSearch 
+- [x] Identificar dados relevantes a serem levantados para melhoria de conversação do bot.
+- [x] Documentar estudo e dados identificados para relevantes para análise e aplicação de melhorias 
+
+**Critérios de aceitação**
+
+- [x] Documento criado e postado na Pages da AIx
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/265
+302,2019.1-Aix,Refatorar fluxo de forma a induzir melhor a escrita do usuário a cada interação,"Refatorar as utters de forma a induzir melhor o usuário a como requisitar algo ao bot.
+
+**Tarefas**
+
+- [x] Refatorar utter de forma a exemplificar melhor a forma como o usuário deve requisitar uma ação ao bot.
+
+**Critérios de aceitação**
+
+- [x] Bot conseguir induzir da foma correta de escrita do usuário durante a interação",https://github.com/fga-eps-mds/2019.1-Aix/issues/261
+303,2019.1-Aix,Refatorar Fluxo de forma a manter usuário na conversa,"Refatorar as utters do bot afim de manter o usuário na conversa de forma que o usuário percorra um caminho de aprendizado, porém tenha a opção de pular de um conteúdo para o outro sem ter que passar por todas as etapas do conteúdo (exercicios..conteúdo extra) e que todas essas transições estejam intuitivas para o usuário.
+
+**Tarefas**
+
+- [x] Guiar usuário para acessar o conteúdo do bot
+- [x] Guiar usuário para acessar os sub tópicos de conteúdo do bot
+
+**Critérios de aceitação**
+
+- [x] Usuário conseguir seguir um fluxo induzido pelas interações com o bot sem se perder nas funcionalidades dispostas no bot
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/260
+310,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de arquivos,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de arquivos
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de arquivos na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de arquivos. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/231
+311,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre arquivos
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de arquivos na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de arquivos.
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido",https://github.com/fga-eps-mds/2019.1-Aix/issues/230
+312,2019.1-Aix,Adicionar tópico com exemplos de utilização de arquivos,"Adicionar conteúdo referente ao tópico com exemplos de utilização de arquivos 
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de arquivos na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de arquivos. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/229
+313,2019.1-Aix,Adicionar tópico com a definição do que são arquivos,"Adicionar conteúdo referente ao tópico definição do que são arquivos
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre arquivos
+- [x] Inserir conteúdo referente a ação de explicar sobre arquivos. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido",https://github.com/fga-eps-mds/2019.1-Aix/issues/228
+315,2019.1-Aix,Construir hello world,"Auxiliar o usuário na construção do seu primeiro programa hello world na linguagem python.
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a auxiliar o usuário na construção do primeiro programa hello world
+- [x] Fazer isso por meio da criação de intents para cada ação do bot 
+      Ex: 
+            - intent para importar bibliotecas
+            - intent para criar main
+            - intent para printar linha 
+            ....
+       
+**Critérios de aceitação**
+
+- [x] Bot capaz de guiar usuário na criação do primeiro hello world
+- [x] bot capaz de responder usuário fora do contexto de criação do hello world porem em um contexto externo caso tenha duvida sobre como printar uma linha em python por exemplo.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/226
+316,2019.1-Aix,Ampliar conteúdos gerais abordados pelo bot,"Ampliar conteúdos que podem vir a ser abordados pelo usuário baseado no teste de usabilidade.
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a assuntos inapropriados
+- [x] Criar conteúdo referente a assuntos pessoais sobre programação. 
+       Ex: 
+             - Não sei programar
+             - quero aprender programação
+
+**Critérios de aceitação**
+
+- [x] Bot conseguir entender e retornar a melhorar resposta possível de acordo com o assunto abordado.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/225
+317,2019.1-Aix,Evolução de cumprimento da Aix,"Tratar conteúdos gerais que podem vir a ser tratados pelo bot.
+
+**Tarefas**
+
+- [x] Refatorar utter de cumprimento afim de especificar as funcionallidades do bot de uma maneira melhor.
+- [x] Avaliar uma melhor maneira de implementar essa melhora por meio da uuter de fallback
+- [x] Avaliar implementação de comandos
+
+**Critérios de aceitação**
+
+- [x] Bot cumprimentando usuário de forma a tornar o diálogo intuitivo para o usuário de todas as funcionalidades dispostas no bot.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/223
+318,2019.1-Aix,Evoluir intents de acordo com feedback dos usuários,"Evoluir intents e utters de modo a aumentar o vocabulário do bot.
+
+**Tarefas**
+
+- [x] Evoluir arquivo de intents
+- [x] Construir imagens para utilização nas utters utilizadas no bot
+
+**Critérios de aceitação**
+
+- [x] Bot se comunicando bem por meio de diversos tipos de entrada do usuário.
+- [x] Bot lidando com imagens nas utters de forma a reduzir os textos presentes na explicação.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/222
+321,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de funções
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de funções na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de funções. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/219
+322,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre funções,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre funções
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de funções na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de funções.
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/218
+323,2019.1-Aix,Adicionar tópico com exemplos de utilização de funções,"Adicionar conteúdo referente ao tópico com exemplos de utilização de funções 
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de funções na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de funções. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/217
+324,2019.1-Aix,Adicionar tópico com a definição do que são funções,"Adicionar conteúdo referente ao tópico definição do que são funções
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre funções
+- [x] Inserir conteúdo referente a ação de explicar sobre funções. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/216
+325,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de matrizes,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de matrizes
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de matrizes na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de matrizes. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/215
+326,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre matrizes,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre matrizes
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de matrizes na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de matrizes.
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido",https://github.com/fga-eps-mds/2019.1-Aix/issues/214
+327,2019.1-Aix,Adicionar tópico com exemplos de utilização de matrizes,"Adicionar conteúdo referente ao tópico com exemplos de utilização de matrizes
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de matrizes na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de matrizes. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/213
+328,2019.1-Aix,Adicionar tópico com a definição do que são matrizes,"Adicionar conteúdo referente ao tópico definição do que são matrizes
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre matrizes
+- [x] Inserir conteúdo referente a ação de explicar sobre matrizes. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/212
+329,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de vetores,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de vetores
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de vetores na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de vetores. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/211
+330,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre vetores,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre vetores
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de vetores na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de vetores.
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/210
+332,2019.1-Aix,Adicionar tópico com exemplos de utilização de vetores,"Adicionar conteúdo referente ao tópico com exemplos de utilização de vetores
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de vetores na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de vetores. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/208
+333,2019.1-Aix,Adicionar tópico com a definição do que são vetores,"Adicionar conteúdo referente ao tópico definição do que são vetores
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre vetores
+- [x] Inserir conteúdo referente a ação de explicar sobre vetores. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/207
+334,2019.1-Aix,Bot não reage corretamente com o comando /start,"**Descreva o bug**
+Quando você abre um chat de um bot pelo username (no caso desse bot @Aix_chatbodebot), ele oferece a opção de iniciar e quando você clica, ele manda o comando `/start` para o bot, mas a resposta que vem é de que ele não está entendendo o comando.
+
+**Comportamento esperado**
+Uma mensagem de boas-vindas ou coisa do tipo.
+
+**Comportamento encontrado**
+Mensagens variadas do tipo ""não entendi""
+
+**Como reproduzir**
+1. Digite `/start` no chat do bot e mande
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/205
+340,2019.1-Aix,Adicionar tópico com a definição de Matrizes,"Adicionar conteúdo referente ao tópico definição de Matrizes
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre matrizes
+- [x] Inserir conteúdo referente a ação de explicar sobre matrizes. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/174
+341,2019.1-Aix,Adicionar tópico com a definição de Vetores,"Adicionar conteúdo referente ao tópico definição de Vetores
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre vetores
+- [x] Inserir conteúdo referente a ação de explicar sobre vetores. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/173
+343,2019.1-Aix,Adicionar tópico sobre guiar usuário na instalação das dependências do python,"Adicionar conteúdo referente à guiar o usuário na instalação das dependências do python
+
+**Tarefas**
+
+- [x] Criar conteúdo referente à guiar o usuário na instalação das dependências do python
+- [x] Inserir conteúdo referente à guiar o usuário na instalação das dependências do python. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/170
+344,2019.1-Aix,Adicionar tópico sobre dependências do ambiente de desenvolvimento do usuário,"Adicionar conteúdo referente à dependências presentes no ambiente de desenvolvimento configurado no computador do usuário
+
+**Tarefas**
+
+- [x] Criar conteúdo referente à dependências do ambiente de desenvolvimento configurado na máquina do usuário
+- [x] Inserir conteúdo referente à dependências do ambiente de desenvolvimento configurado na máquina do usuário. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/169
+345,2019.1-Aix,Adicionar tópico sobre questionamento sobre ambiente de desenvolvimento,"Adicionar conteúdo referente à existência de um ambiente de desenvolvimento configurado no computador do usuário
+
+**Tarefas**
+
+- [x] Criar conteúdo referente à existência de um ambiente de desenvolvimento configurado na máquina do usuário
+- [x] Inserir conteúdo referente à existência de um ambiente de desenvolvimento configurado na máquina do usuário. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/168
+356,2019.1-Aix,"Formatar padrões em intents, utters e stories","**Tarefas**
+
+- [x] Estabelecer uma padrão entre todas as utters, stories e intents.
+
+**Critérios de aceitação**
+
+- [x] A definição do padrão não deve afetar no funcionamento do bot.
+- [x] Todas as utters, intents e stories devem seguir o padrão definido.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/148
+364,2019.1-Aix,Adicionar tópico de Fallback,"Adicionar conteúdo referente a Fallback de forma que o bot consiga se expressar quando não compreender algo.
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a fallback
+- [x] Inserir conteúdo referente a fallback. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/132
+365,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas de repetição,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de estruturas de repetição
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas de repetição na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/131
+366,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas de repetição,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre estruturas de repetição
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de Estruturas de repetição na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas de repetição. 
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/130
+367,2019.1-Aix,Adicionar tópico com exemplos de utilização de estruturas de repetição,"Adicionar conteúdo referente ao tópico com exemplos de utilização de estruturas de repetição
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas de repetição na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/129
+381,2019.1-Aix,Adicionar tópico com a definição de Estruturas de Repetição,"Adicionar conteúdo referente ao tópico definição de Estruturas de Repetição
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre estruturas de repetição
+- [x] Inserir conteúdo referente a ação de explicar sobre estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/87
+386,2019.1-Aix,Documento de elicitação de requisitos,"Elaborar documento de elicitação de requisitos baseado nas respostas do formulário elaborado.
+
+**Tarefas**
+
+- [x] Criar documento de requisitos
+- [x] Adicionar documento ao GitHub Pages
+
+**Critérios de aceitação**
+
+- [x] O documento deve estar devidamente revisado e adicionado ao Github pages do grupo
+- [x] Documentar na issue o  link do arquivo onde se pode encontrar o documento. 
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/79
+389,2019.1-Aix, Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas condicionais,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de estruturas condicionais
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas condicionais na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/76
+390,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas condicionais,"Adicionar conteúdo referente ao tópico linkagem estática para conteúdo extra sobre estruturas condicionais
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de Estruturas condicionais na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas condicionais. 
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/75
+391,2019.1-Aix,Adicionar tópico com exemplos de utilização de estruturas condicionais,"Adicionar conteúdo referente ao tópico com exemplos de utilização de estruturas condicionais
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas condicionais na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/74
+392,2019.1-Aix,Adicionar tópico com a definição do que são estruturas condicionais,"Adicionar conteúdo referente ao tópico definição do que são estruturas condicionais
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre Estruturas condicionais
+- [x] Inserir conteúdo referente a ação de explicar sobre estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/73
+393,2019.1-Aix,Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de variáveis,"Adicionar conteúdo referente ao tópico linkagem estática para sugestão de exercício sobre uso de variáveis
+
+**Tarefas**
+
+- [x] Pesquisar link referente a sugestão de exercícios referentes ao uso de variáveis na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/72
+394,2019.1-Aix,Adicionar tópico com linkagem estática para conteúdo extra sobre variáveis,"Adicionar conteúdo referente ao tópico de linkagem estática para conteúdo extra sobre variáveis
+
+**Tarefas**
+
+- [x] Pesquisar link referente a utilização de variáveis na linguagem python.
+- [x] Inserir conteúdo referente a ação de oferecer um link sobre a utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/71
+395,2019.1-Aix,Adicionar tópico com exemplos de usos de variáveis em python,"Adicionar conteúdo referente ao tópico de exemplos de variáveis em python.
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de apresentar exemplos de utilização de variáveis na linguagem python.
+- [x] Inserir conteúdo referente a ação de apresentar exemplos de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/70
+396,2019.1-Aix,Adicionar tópico com a definição de variável,"Adicionar conteúdo referente ao tópico variáveis
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de explicar sobre variáveis.
+- [x] Inserir conteúdo referente a ação de explicar sobre variáveis. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/69
+397,2019.1-Aix,Adicionar tópico para que o bot seja capaz de Manter uma conversa,"Adicionar conteúdo referente ao tópico manter conversa.
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a ação de manter conversa que tem como finalidade fazer com que o usuário continue uma conversa fluida com o bot.
+- [x] Inserir conteúdo referente a ação de manter conversa com o  bot. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido",https://github.com/fga-eps-mds/2019.1-Aix/issues/68
+398,2019.1-Aix,Adicionar tópico sobre Curiosidades de Python,"Adicionar conteúdo referente ao tópico curiosidades sobre python
+
+**Tarefas**
+
+- [x] Criar conteúdo referente a curiosidades sobre python do bot
+- [x] Inserir conteúdo referente a curiosidades sobre python. Incluindo arquivos de Domain.yml, intents e utter
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/66
+402,2019.1-Aix,Adicionar Tópico: Sobre Python,"Inserir conteúdo para que o Bot seja capaz de explicar a definição de python para usuário.
+
+**Tarefas**
+- [x] Criar conteúdo
+- [x] Inserir conteúdo referente a ação de explicar a definição de python para o usuário
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/47
+404,2019.1-Aix,Adicionar Tópico: Despedir,"Inserir conteúdo para que o Bot seja capaz de se despedir do usuário.
+
+**Tarefas**
+- [x] Criar conteúdo
+- [x] Inserir conteúdo referente a ação de se despedir do usuário
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/45
+405,2019.1-Aix,Adicionar Tópico: Menu ajuda,"Inserir conteúdo para que o Bot seja capaz de explicar o menu de ajuda pode oferecer ao usuário.
+
+**Tarefas**
+- [x] Criar conteúdo
+- [x] Inserir conteúdo referente a ação de explicar o que pode oferecer ao usuário.
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/44
+406,2019.1-Aix,Adicionar Tópico: Sobre Aix,"Inserir conteúdo para que o Bot seja capaz de explicar o que é a Aix para o usuário usuário.
+
+**Tarefas**
+- [x] Criar conteúdo
+- [x] Inserir conteúdo referente a ação de explicar sobre quem e qual a função da Aix
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/43
+408,2019.1-Aix,Adicionar tópico: Cumprimentar,"Inserir conteúdo para que o Bot seja capaz de cumprimentaro usuário.
+
+**Tarefas**
+- [x] Criar conteúdo
+- [x] Inserir conteúdo referente a ação de cumprimentar no bot
+
+**Critérios de aceitação**
+
+- [x] Aix ser capaz de responder este tópico
+- [x] Conteúdo não reduzir precisão de resposta para outro tópico
+- [x] Documentar na issue o conteúdo inserido
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/41
+419,2019.1-Aix,Elaborar Backlog do produto ,"Elaborar documento de elicitação: backlog do produto, afim de estruturar escopo
+ * Tasks
+  - [x] Mapear requisitos
+  - [x] Criar épico
+  - [x] Criar features
+  - [x] Criar US's
+  - [x] Criar tasks de US's
+  - [x] Criar intents
+  - [x] Criar tasks de intents
+
+ * Critérios de aceitação
+  - [x] Documento validado
+  - [x] Documento linkado na issue
+  - [x] Documento no github pages
+
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/30
+432,2019.1-Aix,Treinamento de Chatbot,"Treinamento para que a equipe de EPS/MDS entenda o processo de desenvolvimento de um chatbot.
+
+**Tarefas**
+
+- [x] EXplicar o que é um chatbot
+- [x] Explicar sobre Rasa NLU e Rasa Core
+- [x] Explicar o processo de desenvolvimento de um chatbot (intents, utters...)
+- [x] Explicar Arquivos de desenvolvimento.
+
+
+**Critérios de aceitação**
+
+- [x] A equipe de EPS/MDS deve ser capaz de compreender os princípios, processos e arquivos que serão trabalhados.
+- [x] A equipe de EPS/MDS deve ser capaz de criar e treinar um bot simples.
+",https://github.com/fga-eps-mds/2019.1-Aix/issues/9
+452,2021.1-AlligaBot,Corrigir erro de intent,"## Descrição da Issue
+Problema em intent 
+
+## Tasks:
+  - [x] Aprimorar intent
+
+
+## Critérios de Aceitação:
+- [x] Bot funcionando perfeitamente
+
+
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/418
+461,2021.1-AlligaBot,melhoria nas intents de algumas US,"## Descrição da Issue
+Melhoria nas intents de algumas US para evitar confusões.
+
+## Tasks:
+- [x] Melhorias implementadas.
+
+## Critérios de Aceitação:
+- [x] bot respondendo corretamente.
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/407
+462,2021.1-AlligaBot,Intent stop,"## Nova intent: stop
+Foi identificada a necessidade da adição da intent stop, que será responsável por lidar com o comando /stop
+
+## Tasks:
+- [ ] Implementar a intent
+
+## Critérios de Aceitação:
+- [ ] O comando /stop não deve gerar erro
+
+@DouglasMonteles 
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/405
+472,2021.1-AlligaBot,Realizar testes e humanizar a US40,"## Descrição da Issue
+Realizar testes e humanizar a US40, lembrando que esta US possui botões e varias intents.
+
+## Tasks:
+- [x] US40 humanizada.
+- [x] US40 testada
+
+## Critérios de Aceitação:
+- [x] US40 pronta para a R2.
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/380
+474,2021.1-AlligaBot,Correção  de espaçamento em algumas utters,"## Descrição da Issue
+O espaçamento de algumas utters está incorreto e está causando problemas para executar o bot.
+![Captura de tela de 2021-10-22 18-40-26](https://user-images.githubusercontent.com/39713656/138526607-8d01ccb9-4f10-4b01-975d-96edd6fe2df4.png)
+
+
+
+## Tasks:
+- [x] Corrigir espaçamento
+
+
+## Critérios de Aceitação:
+- [x] Bot funcionando
+
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/372
+478,2021.1-AlligaBot,Realizar testes rasa da  US16 até a US20  e alteração de intent,"## Descrição da Issue
+Implementação de testes rasa nas US16 a US20 .
+
+Uma mudança importante,a US 14 e US 16 agora são uma só:
+
+Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade e quantidade de mortos por covid na minha cidade
+
+
+
+
+ID | User Story | Prioridade | Pontos
+-- | -- | -- | --
+***US14***|***Eu, como usuário, desejo saber qual a quantidade de infectados por covid na minha cidade/estado/país***| ***Should***|***8***
+***US16***|***Eu, como usuário, desejo saber qual a quantidade de mortos por covid na minha cidade/estado/país***| ***Should***|***8***
+US17 | Eu, como usuário, desejo saber qual a quantidade de mortos por período | Could | 8
+US18 | Eu, como usuário, desejo saber os cuidados que devo ter em locais abertos | Must | 3
+US19 | Eu, como usuário, desejo saber os cuidados que devo ter em locais fechados | Must | 3
+US20 | Eu, como usuário, desejo saber qual a diferença de contaminação entre locais abertos e fechados | Must | 3
+
+
+
+## Tasks:
+- [x] Modificar intent para atender a US 14 e 16 ao mesmo tempo
+- [x] Teste US14/16
+- [x] Teste US17
+- [x] Teste US18
+- [x] Teste US19
+- [x] Teste US20
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/367
+486,2021.1-AlligaBot,Realizar testes nas US39 - US45,"## Descrição da Issue
+Realizar testes Rasa nas US39 a US45
+
+## Tasks:
+- [ ]  Verificar o funcionamento das intents
+- [ ]  Corrigir possíveis bugs
+
+
+
+
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/353
+495,2021.1-AlligaBot,Realizar testes rasa na US11 até US15,"## Descrição da Issue
+Realizar testes Rasa nas US11 a US15
+
+## Tasks:
+- [x] Verificar o funcionamento das intents
+- [x] Corrigir possíveis bugs
+
+## Critérios de Aceitação:
+- [x] Tudo funcionando como deveria
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/333
+496,2021.1-AlligaBot,Realizar testes nas US27 - US32,"## Descrição da Issue
+Realizar testes Rasa nas US27 a US32
+
+## Tasks:
+- [x] Verificar o funcionamento das intents
+- [x] Corrigir possíveis bugs
+
+## Critérios de Aceitação:
+- [x] Tudo funcionando como deveria
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/332
+508,2021.1-AlligaBot,Implementação da US40,"## Descrição da Issue
+Eu, como usuário, desejo saber qual a eficácia de cada vacina aprovada pela anvisa - MUST 5
+
+## Tasks:
+- [x] Marcar na tabela ""em andamento""
+- [x] Criar intent
+- [x] Criar story
+- [x] Criar action
+
+## Critérios de Aceitação:
+- [x] Botinho respondendo a US.
+- [x] Marcar na tabela ""finalizado""
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/314
+509,2021.1-AlligaBot,Atualizando US14 a US17,"## Atualização
+Atualizando a fonte de informações para as US 14 ao 17. Dada a descoberta de uma nova fonte de informações que fornece dados em .csv de forma mais simples e sem a necessidade de download, diminuindo assim o tempo de resposta.
+
+Fonte: https://github.com/wcota/covid19br
+
+## Tasks:
+- [ ] Atualizar o csv 
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/309
+517,2021.1-AlligaBot,Implementação da US44,"## Descrição da Issue
+Implementação da US44 - Eu, como usuário, testei positivo para covid e quero saber o que fazer
+Prioridade: Must, Pontos: 3
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/293
+518,2021.1-AlligaBot,Implementação da US43,"## Descrição da Issue
+Implementação da US43 - Eu, como usuário com suspeita de covid, desejo saber qual tipo de exame devo fazer e porque
+Prioridade: Must, Pontos: 5
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/292
+519,2021.1-AlligaBot,Implementação da US42,"## Descrição da Issue
+Implementação da US42 - Eu, como usuário com suspeita de covid, desejo saber onde me testar
+Prioridade: Should, Pontos: 5
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/291
+520,2021.1-AlligaBot,Implementação da US41,"## Descrição da Issue
+Implementação da US41 - Eu, como usuário com suspeita de covid, desejo saber o que fazer
+Prioridade: Must, Pontos: 5
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/290
+521,2021.1-AlligaBot,Implementação da US39,"## Descrição da Issue
+Implementação da US39 - Eu, como usuário, desejo saber quantas doses da vacina preciso tomar
+Prioridade: Must, Pontos: 5
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/289
+522,2021.1-AlligaBot,Implementação da US28,"## Descrição da Issue
+Implementação da US28 - Eu, como usuário, desejo saber como me cuidar no transporte público
+Prioridade: Must, Pontos: 3
+
+## Tasks:
+- [x] Intent criada
+- [x] Action criada
+- [x] Story criada
+
+## Critérios de Aceitação:
+- [x] Bot respondendo as possiveis perguntas listadas na intent
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/288
+562,2021.1-AlligaBot,Arquivos csv com python nas actions,"## Descrição da Issue
+Utilizar arquivos .CSV para obter informações sobre o Covid-19 e integra-los em ações customizadas no Chatbot
+
+## Tasks:
+- [x] Encontrar uma fonte confiável para os arquivos .csv
+- [x] Percorrer as informações de um .csv dentro de uma action customizada
+- [x] Obter somente as informações relacionadas a uma intent 
+- [x] Devolver uma resposta composta com informações obtidas dos .csv
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/217
+563,2021.1-AlligaBot,Web scraping,"## Descrição da Issue
+Faz-se necessário pegar a UF e a Cidade informadas pelo usuário através do telegram e utilizar um web scraping que, com base nestes parâmetros, fará uma busca no site do governo https://qsprod.saude.gov.br/extensions/covid-19_html/covid-19_html.html para obter os dados sobre a covid
+
+## Tasks:
+- [x] Pegar a UF e a Cidade informados pelo usuário
+- [x] Utilizar um web scraping para obter os dados
+- [x] Devolver uma resposta para o usuário",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/216
+589,2021.1-AlligaBot,Buscar por monitores pra feedback dos documentos,"## Descrição da Issue
+Busca por monitores para dar um feedback sobre os documentos realizados no projeto.
+
+## Tasks:
+- [x] Conversar com o monitor.
+- [x] Receber o feedback.
+- [x] Notificar o grupo sobre o feedback.
+
+## Critérios de Aceitação:
+- [x] Ter a conversa com o monitor.
+- [x] Ter recebido o feedback.
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/167
+611,2021.1-AlligaBot,Corrigir guia de instalação no README e outros erros,"## Tasks:
+- [x] Acrescentar `make run` para subir os containers
+- [x] Ser mais claro na instrução de sair da conversa com o bot
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/130
+614,2021.1-AlligaBot,Iniciando a conversa sobre covid com o bot,"## Descrição da Issue
+Iniciando conversa com o bot sobre covid e testando seus limites 
+
+
+
+
+
+
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/118
+644,2021.1-AlligaBot,Perguntas sobre vacinação,"## Descrição da Issue
+Perguntas sobre vacinação que o usuário pode perguntar ao bot (e claro, sua resposta)
+
+## Tasks:
+- [ ] Todos os membros do time devem participar
+- [ ] Pensar em perguntas similares, exemplo ""oi, tudo bem?"" = ""oi, como vai?""",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/68
+648,2021.1-AlligaBot,Organizar as ideias do backlog,"## Descrição da Issue
+Após a reunião para conversarmos sobre o backlog, será organizado um documento sobre as mesmas
+
+## Tasks:
+- [x] Organizar as ideias em um documento
+
+## Critérios de Aceitação:
+- [x] Aprovação da equipe Plus Ultra
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/64
+654,2021.1-AlligaBot,Estruturação do documento de arquitetura,"## Descrição da Issue
+Nessa sprint nós arquitetos decidimos estruturar melhor o documento de arquitetura, pesquisando sobre o banco de dados a ser utilizado, e também fazer, ou iniciar o fluxo de conversas do bot.
+
+## Tasks:
+- [x] Juntar todas as possíveis respostas do bot (time SlowBros) e um fluxo de conversa (intenção/ação(resposta))
+- [x] Juntar todas as possíveis respostas do bot (time Capivara) e um fluxo de conversa (intenção/ação(resposta))
+- [x] Juntar todas as possíveis respostas do bot (time PlusUltra) e um fluxo de conversa (intenção/ação(resposta))
+- [x] Definir um banco de dados, ou ver como é armazenada as respostas do RasaBot
+- [x] Fazer uma representação arquitetural 
+## Critérios de Aceitação:
+- [x] Update de informações relevantes no documento de arquitetura
+- [x] Desenho de arquitetura feito (pelo menos de modo inicial)",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/57
+655,2021.1-AlligaBot,Criar protótipo de baixa fidelidade (time plus-ultra),"## Descrição da Issue
+A partir da reunião de brainstorm do protótipo de baixa fidelidade de fluxo de conversa com o bot (da parte do Time Plus-Ultra), a ser realizada no domingo, 12:50
+
+## Tasks:
+- [x] Fazer a primeira versão do protótipo de baixa fidelidade
+- [x] Documentar a reunião de brainstorm do protótipo de baixa fidelidade de fluxo de conversa com o bot
+
+## Critérios de Aceitação:
+- [x] Criação de um fluxograma para o protótipo de baixa fidelidade do time Plus-Ultra",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/56
+669,2021.1-AlligaBot,US 01 - FAQ espaços abertos,"## Descrição da Issue
+Eu, como cidadão brasileiro, quero saber de dicas de prevenção em epaços abertos, para que eu possa me sentir seguro nesses locais.
+
+## Tasks:
+- [ ] Criar a intenção de perguntar sobre prevencao ao ar livre
+- [ ] Colocar a opção dessa info no menu principal do bot
+- [ ] Escrever a resposta corrata com a inforção
+- [ ] colocar as stories do bot
+
+## Critérios de Aceitação:
+- [ ] O treinamento do bot acontecer sem erros
+- [ ] Bot testado com essa nova informação
+
+",https://github.com/fga-eps-mds/2021.1-AlligaBot/issues/38
+708,2020.1-DoctorS-Bot,Bug de logout,"### Descrição
+Após a realização de um logout o bot responde que não entendeu a mensagem, mesmo com o logout acontecendo corretamente.
+
+### Reprodução
+Passos para reproduzir o erro:
+1. Faça login
+2. Clique em logout
+3. O logout será realizado, porém em seguida o bot responderá que não entendeu a mensagem.
+
+### Comportamento esperado
+É esperado que o bot não responda que não entendeu a mensagem.",https://github.com/fga-eps-mds/2020.1-DoctorS-Bot/issues/79
+711,2020.1-DoctorS-Bot,Bug na edição de perfil,"### Descrição
+O bot está permitindo que alterações de username, raça, gênero sexual e nascimento sejam aceitas mesmo que as entradas sejam inválidas. No caso do grupo de risco e trabalho, ao inserir uma entrada inválida, o dado não é alterado, porém o bot diz que foi alterado.
+
+### Reprodução
+Passos para reproduzir o erro:
+
+1. Vá em Editar perfil
+2. Selecione algum dado para alterar
+3. Insira um dado inválido
+4. A informação será alterada com uma entrada inválida ou a informação não será alterada, porém o bot envia mensagem dizendo que foi alterada
+
+### Comportamento esperado
+Informações inválidas não devem ser aceitas e não devem ser enviadas mensagens de informação alterada caso a entrada seja inválida.",https://github.com/fga-eps-mds/2020.1-DoctorS-Bot/issues/71
+766,2019.2-Chatbot-Nilo,Actions que não estão disponíveis não retornam nenhuma mensagem de erro.,"## Descrição
+
+Devido a necessidade de conexão com outros servidores, é capaz que algumas actions não funcionem corretamente devido a algum erro no outro servidor e, como as actions não tem tratamento de exceções, quando o bot executa alguma action inválida no momento, não há nenhuma resposta clara do que aconteceu para o bot não responder corretamente.
+
+- [ ] Criar tratamento de exceções em todas as actions no arquivo actions.py.
+
+## Critérios de Aceitação
+- [ ] O bot der uma resposta plausível do porquê ele não ter respondido da maneira correta nessas actions.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/107
+767,2019.2-Chatbot-Nilo,Finalizar os Testes do Nilo,Terminar os testes de forma que nossas intents criadas funcionem da maneira desejada.,https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/103
+770,2019.2-Chatbot-Nilo,Adicionar os tópicos conhecidos como resposta do bot,"**Descrição**: 
+
+Caso o usuário não saiba ao certo sobre o que perguntar ele não possui uma resposta rápida do bot que possa lhe informar os tópicos e assuntos conhecidos
+
+**Tarefas**:
+- [ ] Informar ao usuário, caso solicitado, os temas os quais o bot possui uma resposta.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/97
+771,2019.2-Chatbot-Nilo,[BUG] Erro na intent geral de estágio.,"**Descreva o bug**
+Quando solicitado uma informação sobre estágio, o bot deveria enviar um arquivo com as perguntas mais frequentes, porém ele não está conseguindo enviar e apenas continua a conversa.
+
+**Para reproduzir o bug**
+Passo-a-passo para reproduzir o comportamento do bug:
+1. Envie ""gostaria de saber sobre estágio supervisionado"" para o bot.
+4. Veja o erro
+
+**Comportamento esperado**
+
+O bot deveria enviar o arquivo com as perguntas mais frequentes sobre estágio, e continuar a conversa.
+
+**Screenshots**
+
+![WhatsApp Image 2019-11-19 at 22 10 10](https://user-images.githubusercontent.com/48720096/69200294-713afa80-0b19-11ea-8fbb-84125e3d44f8.jpeg)
+
+**Ambiente:**
+ - SO: [e.g. Ubuntu]
+ - Versão [e.g. 22]
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/95
+772,2019.2-Chatbot-Nilo,[BUG] Problemas no build das imagens de actions.,"**Descreva o bug**
+Quando executado o comando para fazer o `build``da imagem ""lappis/botrequirements:boilerplate"" no arquivo ""actions.Dockerfile"", as actions entram em conflito com as actions da imagem do nosso repositório que tem como nome ""yukioz/requirements"".
+
+**Para reproduzir o bug**
+Passo-a-passo para reproduzir o comportamento do bug:
+1. Entre no repositório pelo console
+2. Digite o comando:
+
+             sudo docker-compose up --build actions 
+
+4. Veja o erro
+
+**Comportamento esperado**
+Após o build deve aparecer uma mensagem de sucesso do build, e as actions irão coincidir.
+
+**Screenshots**
+
+![Captura de tela de 2019-11-14 13-10-53](https://user-images.githubusercontent.com/48720096/68875523-bdcda280-06e1-11ea-831d-f2a7aaa2c5d9.png)
+
+**Ambiente:**
+ - SO: [e.g. Ubuntu]
+ - Versão [e.g. 22]
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/92
+773,2019.2-Chatbot-Nilo,Atualizar o /start,"## Descrição
+
+A intent /start do projeto ainda está referenciando os conhecimentos do bot na Release 1. Essa intent precisa ser atualizada com os novos assuntos que o bot pode tratar e também seria interessante que ele cite a existência do /help.
+
+## Tasks(Tarefas).
+
+- [ ] Referencias todos os assuntos que o bot trata.
+- [x] Referenciar o /help para auxiliar o usuário.
+
+## Critérios de Aceitação
+- [ ] Cumprir todas as tarefas acima.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/89
+775,2019.2-Chatbot-Nilo,Erro no arquivo webscraping.py,"## Descrição
+
+As funções contidas no arquivo webscraping.py deveriam retornar as informações dos coordenadores mas estão retornando uma mensagem vazia.
+
+## Critérios de Aceitação
+- [ ] Fazer com que as informações dos coordenadores seja mostrada corretamente
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/86
+776,2019.2-Chatbot-Nilo,Erro ao fazer os testes de stories,"## Descrição
+
+Após a atualização das intents para um padrão melhor de respostas do bot, as frases descritas no arquivo de teste (e2e_stories.md) não estão funcionando mais.
+
+- [ ] Atualizar o arquivo e2e_stories para as novas intents.
+
+
+## Critérios de Aceitação
+- [ ] O projeto tem que passar no stage test stories do CI.
+
+
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/85
+781,2019.2-Chatbot-Nilo,Dúvidas de Secretaria/Coordenação,"## Descrição
+
+Implementar as respostas para as dúvidas dos seguintes assuntos: reserva de sala, semana universitária, trancamento e dupla graduação.
+
+#### Tasks(Tarefas)
+
+As dúvidas dos seguintes tópicos terão que ser implementadas:
+
+- [x] Semana universitária.
+- [ ] Reserva de Salas
+- [x] Trancamento
+- [ ] Dupla Graduação
+
+## Critérios de Aceitação
+-  Cumprir todas as tarefas citadas acima.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/74
+782,2019.2-Chatbot-Nilo,Melhorar a organização das intents nos arquivos,"Algumas intents de dúvidas de Coordenação e Secretaria estão nas pastas de estágios. Seria mais organizado colocar essas intents na pasta ""geral.md"".
+
+Tarefas:
+- [x] Mover as intents de dúvidas de Coordenação e Secretaria para a pasta geral de intents.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/73
+783,2019.2-Chatbot-Nilo,Criação de um tutorial completo de estágio,"Eu, como usuário desejo receber um tutorial completo de estágio supervisionado com o objetivo de me informar.
+Prioridade: Should have.
+
+**Tarefas:**
+- [x] Organizar um tutorial completo de estágio supervisionado, reunindo as informações já contidas em respostas separadas.
+- [x] Enviar esse tutorial pelo bot
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/72
+786,2019.2-Chatbot-Nilo,Arrumar os conflitos de intents parecidas,"A intent ""limite_creditos_simultaneo_estagio"" pode ser unificada com a intent ""limite_creditos_estagio"" e a intent  ""doc_matricula_estagio"" pode ser unificada a intent ""docs_nao_obrigatorio_estagio"" para tornar mais simples tanto as respostas quanto as maneiras de perguntar.
+
+
+Colocar as intents em apenas uma
+
+- [x] Juntar as intents de forma a simplificar a experiência do usuário
+- [x] Juntar as intents sobre reintegração.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/65
+787,2019.2-Chatbot-Nilo,Action de coordenadores incompleta,"Atualmente a action de coordenadores falta enviar os horarios do coordenador de energia
+
+**Tarefas:**
+- [ ]Adicionar o coordenador de energia na resposta
+![image](https://user-images.githubusercontent.com/43673797/67439759-934e6500-f5cd-11e9-89b7-0c543ba46891.png)
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/63
+789,2019.2-Chatbot-Nilo,Padronizar o texto das intents.,"## Descrição
+
+As intents estão muito iguais e muito repetitivas, e por isso o bot está respondendo de forma confusa.
+
+É recomendado que as intents sejam padronizadas e simplificadas para evitar erros e bugs deste tipo.
+
+Foi sugerido á nossa equipe utilizar os padrões de intents criados pela equipe do Lappis, e utilizado no bot Tais.
+
+O padrão está presente neste link : <https://github.com/lappis-unb/tais/wiki/Intents-Eficientes>
+
+Tasks(Tarefas)
+
+- [ ] Simplificar os textos de intents.
+- [ ] Utilizar boas práticas de intents utilizando o template do bot Tais.
+
+## Critérios de Aceitação
+
+- Cumprir as tarefas anteriormente definidas.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/60
+791,2019.2-Chatbot-Nilo,Refazer os testes do bot,"## Descrição
+
+Após a remodelagem das falas do bot é necessário refazer os testes de conversa do mesmo.
+
+## Critérios de Aceitação
+- [ ] Os testes estarem funcionando devidamente.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/56
+794,2019.2-Chatbot-Nilo,Melhorar a action que informa os coordenadores de estágio,"# Descrição
+
+Buscar as informações sobre os coordenadores de estágios no site da fga.
+
+# Tarefas
+
+- [x] Trocar a utter que informa os coordenadores de estágio por uma action que busque essas informações na web.
+
+# Critérios de aceitação
+- [x] Implementar uma action que acesse o site https://fga.unb.br/coordenacao e por meio de ferramentas em Python, informe os coordenadores de cada curso.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/49
+802,2019.2-Chatbot-Nilo,Melhorar as actions relacionadas ao estágio.,"## Descrição
+
+As `actions` relacionadas ao estágio, estão sem sentido, e a maioria delas são desnecessárias. Com base nisso as actions que são desnecessárias se tornarão `utters`, pois se tratam de tarefas constantes que podem ser tratadas como texto.
+
+## Tasks(Tarefas)
+
+- [ ] Adaptar as actions desnecessárias em `utters`.
+- [ ] Melhorar as actions que permanecerão. 
+
+## Critérios de Aceitação
+
+- [ ]  Cumprir as tarefas previstas anteriormente de forma eficiente.
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/29
+806,2019.2-Chatbot-Nilo,Criar fluxo de teste,"## Descrição: 
+Criar fluxo de conversa do Bot Nilo para melhor desempenho na personalidade humano-robô.
+
+## Critérios de Aceitação
+- [ ] Criar testes efetivos que englobem todos os casos possíveis.",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/21
+810,2019.2-Chatbot-Nilo,Run console script bug.,"**Descreva o bug**
+Quando o bot é executado no console, as custom actions não são executadas.
+
+**Para reproduzir o bug**
+Passo-a-passo para reproduzir o comportamento do bug:
+1. Execute no terminal ""docker-compose run bot make run-console""
+2. Escreva uma fala no bot que esteja na intent ""action_test"".
+4. Veja o erro : 
+
+""Encountered an exception while running action 'action_test'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code"".
+
+**Comportamento esperado**
+O bot deve responder com a seguinte mensagem : ""Mensagem enviada por uma custom action.""
+
+**Ambiente:**
+ - SO: [Ubuntu]
+",https://github.com/fga-eps-mds/2019.2-Chatbot-Nilo/issues/14
+823,2019.1-Ludum,BUGN° - Erro no envio de materiais a partir do /start,"**Descreva o bug**
+Ao iniciar o bot com '/start' e apertar no botão de 'Envio de materiais"" o bot responde com ""Mas eu nem te perguntei nada""
+
+**Para reproduzir o bug**
+Passos para reproduzir o comportamento:
+1. Inicie o bot com '/start'
+2. Clique no botão de Envio de materiais
+3. Receba a mensagem ""Mas eu nem te perguntei nada""
+
+**Comportamento esperado**
+Ao apertar o botão o bot deve instruir o usuário a contribuir com o bot enviando novos materiais.
+
+**Screenshots**
+![Captura de tela de 2019-06-25 11-58-45](https://user-images.githubusercontent.com/23086119/60109894-8c0f6b80-9741-11e9-80a2-6e0ffe83ef56.png)",https://github.com/fga-eps-mds/2019.1-Ludum/issues/180
+824,2019.1-Ludum,T67 - Refatorar conversas e intents,"### Descrição:
+Melhorar o tempo de execução do treino do Bot e tornar a conversa mais fluida e pessoal.
+
+### Tarefas
+- [ ] Refatorar as intents do bot visando melhorar o tempo de execução do treino;
+- [ ] Adicionar novos dialogos para deixar a conversa mais pessoal e fluida.
+
+**Estimativa de Esforço** : 3 pontos
+
+### Comentários
+Nenhum.
+
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/171
+826,2019.1-Ludum,T65 - Refatorar fluxo de FAQ,"### Descrição:
+Realizar correções e ajustes no fluxo de FAQ do bot.
+
+### Tarefas
+- [ ] Realizar ajustes para que as mensagens de erro fiquem mais intuitivas;
+- [ ] Ressaltar que a pesquisa deve ser feita em **INGLÊS**;
+- [ ] Corrigir erros de português;
+- [ ] Deixar frases mais intuitivas;
+- [ ] Acrescentar mais possibilidades de respostas;
+- [ ] Corrigir erros no fluxo.
+
+**Estimativa de Esforço** : 3 pontos
+
+### Comentários
+Nenhum.
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/168
+827,2019.1-Ludum,T64 - Refatorar fluxo de ambiente,"### Descrição:
+Realizar correções e ajustes necessários no fluxo de ambiente do bot.
+
+### Tarefas
+- [x] Realizar ajustes para que as mensagens de erro fiquem mais intuitivas;
+- [ ] Corrigir erros de português;
+- [x] Deixar frases mais intuitivas;
+- [x] Acrescentar mais possibilidades de respostas;
+- [x] Corrigir erros no fluxo.
+
+**Estimativa de Esforço** : 3 pontos
+
+### Comentários
+Nenhum.
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/167
+828,2019.1-Ludum,T63 - Refatorar fluxo de tutorial,"### Descrição:
+Realizar correções e ajustes necessários no fluxo de tutorial do bot.
+
+### Tarefas
+- [x] Realizar ajustes para que as mensagens de erro fiquem mais intuitivas;
+- [x] Corrigir erros de português;
+- [x] Deixar frases mais intuitivas;
+- [x] Padronizar o fluxo dos tutoriais;
+- [x] Acrescentar mais possibilidades de respostas.
+
+**Estimativa de Esforço** : 5 pontos
+
+### Comentários
+Nenhum.
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/166
+857,2019.1-Ludum,T44 - Refatorar os diálogos do bot de acordo com recomendações da R1,"### Descrição:
+Corrigir os diálogos para se adequarem às recomendações da R1.
+
+### Tarefas
+- [x] Diminuir mensagem inicial
+- [x] Mostrar os limites da implementação
+- [x] Corrigir bug nos diálogos
+
+**Estimativa de Esforço** : 3 pontos
+
+### Comentários
+Nenhum.
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/120
+888,2019.1-Ludum,T36 - Refinar comunicação do Ludum,"### Descrição:
+Melhorar a comunicação do Ludum, a fim de corrigir respostas desconexas, desnecessárias e/ou com erros de português. 
+
+### Tarefas
+- [x] Atender a folha de estilo do código;
+- [x] O conteúdo das mensagens deve estar conforme a [personalidade](https://fga-eps-mds.github.io/2019.1-Ludum/#/personalidade-ludum) definida para ele;
+- [x] Corrigir os erros de português; 
+- [x] Evitar que o Ludum responda acerca do que não lhe foi perguntado
+
+### Comentários
+Nenhum.
+
+**Estimativa** : 5 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/81
+897,2019.1-Ludum,US13 - Selecionar complexidade do jogo no tutorial,"### Descrição:
+Eu, como usuário, desejo selecionar a complexidade do jogo em que receberei auxílio.
+
+### Critérios de Aceitação
+- [x] O código deve atender a folha de estilo;
+- [x] O conteúdo das mensagens está conforme a [personalidade](https://fga-eps-mds.github.io/2019.1-Ludum/#/personalidade-ludum) definida para ele;
+- [x] O usuário deve conseguir visualizar o menu e selecionar uma opção, além de receber feedback sobre a opção selecionada.
+
+### Tarefas
+- [x] O Ludum deve exibir o menu de dificuldade com duas opções: Padawan (Iniciante) e Jedi (Intermediário);
+- [x] Deve estar utilizando o recurso [Keyboard Inline](https://luizmarcus.com/php/utilizando-inline-keyboard-em-um-bot-para-o-telegram/) ;
+- [x] O Ludum deve exibir mensagem fornecendo feedback sobre a opção selecionada.
+
+### Comentários
+Usar como base o protótipo de alta fidelidade.
+
+**Estimativa de Duração** : 2 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/65
+903,2019.1-Ludum,TS07 - Comunicar o microsserviço de Dúvidas com a API do StackOverflow,"### Descrição:
+Eu, como desenvolvedor, desejo comunicar o microsserviço de perguntas e respostas com o StackOverflow.
+
+### Critérios de Aceitação
+- [x] Estar pesquisando a dúvida no Stack Overflow;
+- [x] Encontrando resultados plausíveis caso a dúvida esteja no Stack Overflow;
+
+### Tarefas
+- [x] Pesquisar no Stack Overflow essa dúvida;
+- [x] Salvar Link com a resposta no Banco de Dados.
+
+### Comentários
+Nenhum.
+
+**Estimativa de Duração** : 8 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/59
+906,2019.1-Ludum,US11 - Visualizar FAQ,"### Descrição:
+Eu, como usuário, desejo visualizar as perguntas feitas com mais frequência.
+
+### Critérios de Aceitação
+- [ ] O código deve atender a folha de estilo;
+- [ ] O conteúdo das mensagens está conforme a [personalidade](https://fga-eps-mds.github.io/2019.1-Ludum/#/personalidade-ludum) definida para ele;
+- [ ] O Ludum deve mostrar ao usuário as perguntas mais frequentes acerca do PyGame;
+- [ ] O Ludum deve estar recebendo corretamente a escolha do usuário e mostrando a respectiva resposta.
+
+### Tarefas
+- [ ] O Ludum deve exibir uma mensagem com as perguntas mais frequentes;
+- [ ] O Ludum deve perguntar se alguma dessas perguntas é a que o usuário procura;
+- [ ] O Ludum deve ler a escolha do usuário;
+- [ ] O Ludum deve mostrar a resposta da pergunta selecionada, se estiver presente no FAQ.
+
+### Comentários
+Links interessantes: https://www.pygame.org/wiki/FrequentlyAskedQuestions.
+
+**Estimativa de Duração** : 3 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/56
+909,2019.1-Ludum,US10 - Recomendar Materiais,"### Descrição:
+Eu, como usuário, desejo que o Ludum recomende links úteis que possam complementar meu estudo.
+
+### Critérios de Aceitação
+- [x] O código deve atender a folha de estilo;
+- [x] O conteúdo das mensagens está conforme a [personalidade](https://fga-eps-mds.github.io/2019.1-Ludum/#/personalidade-ludum) definida para ele;
+- [x] A mensagem de introdução da sessão deve estar reestruturada de acordo ao novo contexto de apresentação dos links;
+- [x] O Ludum deve exibir uma mensagem com os links aprovados, mostrando seus respectivos nomes, tipos e endereços.
+
+### Tarefas
+- [x] Reestruturar mensagem de introdução à nova forma de apresentação dos links;
+- [x] O Ludum deve exibir uma mensagem com todos os links aprovados e seus respectivos nomes, tipos e endereços.
+
+
+### Comentários
+Nenhum.
+
+**Estimativa de Duração** : 5 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/53
+913,2019.1-Ludum,US08 - Informar sobre formas de contribuição com conteúdo,"### Descrição:
+Eu, como usuário, desejo que o Ludum me informe sobre a possibilidade de contribuição com links.
+
+### Critérios de Aceitação
+- [x] O código deve atender a folha de estilo;
+- [x] O conteúdo das mensagens está conforme a [personalidade](https://fga-eps-mds.github.io/2019.1-Ludum/#/personalidade-ludum) definida para ele;
+- [x] O Ludum deve estar explicando como contribuir com links;
+- [x] O Ludum deve estar explicando como contribuir com tutoriais;
+- [x] O Ludum deve estar introduzindo a funcionalidade;
+- [x] O Ludum deve estar exibindo o link para o webclient, após explicar como contribuir;
+- [x] O Ludum deve estar explicando que as contribuições passam por avaliações dos administradores;
+- [x] Ao final, deve redirecionar ao menu principal.
+
+
+### Tarefas
+- [x] Exibir mensagem introduzindo brevemente a funcionalidade e ressaltando a importância da contribuição do usuário, ex: _""Você é muito importante para deixar o Ludum cada vez melhor e ajudá-lo a cumprir sua missão... Contribua com nossos conteúdos... É muito simples!""_;
+- [x] Exibir mensagem explicando como contribuir com links, ex: _""Se você achou um artigo, um vídeo, um fórum, alguma coisa muito legal relacionado a Pygame que ajude outros usuários em seus estudos e gostaria de que o Ludum o compartilhasse, basta cadastrar esse link em nossos materiais""_;
+- [x] Exibir mensagem explicando como contribuir com tutoriais, ex: _""Ou se você desenvolveu um jogo e gostaria de ensinar outros usuários como desenvolvê-lo, se tem algum aspecto acerca da Pygame que seria legal ensinar outros usuários, entre outros, não hesite em contribuir com nossos tutoriais...""_;
+- [x] Exibir mensagem explicando que todas as contribuições passam por avaliações da equipe administradora;
+- [x] Exibir mensagem com o link do webclient, ex: _""Para cadastrar um desses materiais, acesse o endereço: ""_;
+- [x] Ao final do fluxo, redirecionar para o menu principal;
+
+### Comentários
+Nenhum.
+
+**Estimativa de Duração** : 2 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/48
+924,2019.1-Ludum,US02 - Exibir menu com as funções do Ludum,"### Descrição:
+Eu, como usuário, desejo visualizar um menu com todas as funções disponibilizadas pelo o Ludum.
+
+### Critérios de Aceitação
+- [x] O código deve atender a folha de estilo;
+- [x] O conteúdo das mensagens está conforme a personalidade definida para ele;
+- [x] É exibido um menu com todas as funções que o Ludum pode realizar e uma orientação de como o usuário pode executá-las;
+- [x] As mensagens estão sem erros de português.
+
+### Tarefas
+- [x] Exibir menu com todas as funções que o Ludum pode realizar;
+- [x] Exibir mensagem de como o usuário pode selecionar essas opções.
+
+### Comentários
+Usar como base o protótipo de alta fidelidade.
+
+**Estimativa de Duração** : 3 pontos
+",https://github.com/fga-eps-mds/2019.1-Ludum/issues/37
+963,2019.1-Gaia,Adicionar previsao do tempo e lista de esportes na conversação da Gaia,"- [x] Adicionar rota da lista de esportes e da previsão no Gateway
+- [x] Adicionar intents e stories na Gaia",https://github.com/fga-eps-mds/2019.1-Gaia/issues/266
+964,2019.1-Gaia,Bug ao exibir notificações,"### Bug ao exibir notificações
+
+Nessa issue será realizado para resolver o bug:
+- [x] Arrumar intents
+- [x] Arrumar GetHoursAhead
+- [x] Mudar resposta da Gaia
+- [x] Retirar For In loop
+
+Critérios de aceitação:
+- [ ] critério 1
+- [ ] critério 2
+- [ ] critério 3
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/265
+975,2019.1-Gaia,Melhorar a conversa da gaia ,"### Melhorar a conversa da gaia 
+
+Nessa issue será realizado:
+- [x] Adicionar intents de esportes
+- [x] Adicionar mais exemplos coletados por testes de usabilidade
+
+Critérios de aceitação:
+- [x] Novas intents de esportes adicionadas 
+- [x] Exibição de esportes da Gaia
+- [x] Gaia compreendendo intenções do usuário",https://github.com/fga-eps-mds/2019.1-Gaia/issues/252
+982,2019.1-Gaia,Melhorar fluxo de conversa de ciclone,"### Melhorar fluxo de conversa de ciclone
+
+Nessa issue será realizado:
+- [x] Apresentar ciclones que estão acontecendo no momento
+- [x] Melhorar fluxo de criação de alerta
+
+Critérios de aceitação:
+- [x] Apresentar dados de ciclone antes de sugerir criação de alerta
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/243
+983,2019.1-Gaia,Melhorar fluxo de conversa de esporte,"### Melhorar fluxo de conversa de esporte
+
+Nessa issue será realizado:
+- [x] Refatorar slots
+- [x] Ajustar falas da Gaia
+- [x] Adicionar fluxo de exemplos
+- [x] Adicionar lista de locais ao fluxo de notificação
+
+Critérios de aceitação:
+- [x] Estlint sem erros e warnings
+- [x] Estar testado
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/242
+991,2019.1-Gaia,US26: Eu como usuário desejo que o sistema faça uma nova requisição a cada 2 horas ,"### US26: Eu como usuário desejo que o sistema faça uma nova requisição a cada 2 horas  
+
+Nessa issue será realizado:
+- [x] Fazer requisicao a cada 2 horas no repositório Ciclone
+- [x] Tratar informações
+
+Critérios de aceitação:
+- [ ] Função que faz requisição a cada 2h
+- [ ] Mostrar para o usuário a resposta obtida em cada requisição
+- [ ] Eslint sem erros e warnings
+- [ ] Estar testado
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/232
+1030,2019.1-Gaia,US19 -Eu como usuário desejo que a Gaia me responda com mais acurácia e precisão,"Nessa issue será realizado:
+- [x]  Melhorar conversação da Gaia
+
+Critérios de aceitação:
+- [x] A Gaia deve compreender e responder o usuário da maneira adequada",https://github.com/fga-eps-mds/2019.1-Gaia/issues/179
+1031,2019.1-Gaia,US18-Eu como usuário desejo que o sistema Gateway seja capaz de gerenciar minhas requisições de esporte,"Nessa issue será realizado:
+- [x] Receber requisição da Gaia
+- [x] Quebrar requisição maior e priorizar as menores
+- [x] Enviar cada requisição menor para o microsserviço correspondente.
+- [x] Receber respostas dos microsserviços e montar resposta final que será enviado para o usuário.
+- [x] Testar
+
+Critérios de aceitação:
+- [x] Redirecionar requisições p/ os microserviços
+- [x] Estar testado
+- [x] Eslint sem erros e warnings",https://github.com/fga-eps-mds/2019.1-Gaia/issues/178
+1032,2019.1-Gaia,US17 - Eu como usuário desejo que o sistema consiga a previsão de até cinco dias,"Nessa issue será realizado:
+- [ ] Estudar documentação da API externa
+- [ ] Executar GET
+- [ ] Exibir resposta
+
+Critérios de aceitação:
+- [ ] Eslint sem erros e warnings
+- [ ] Estar testado",https://github.com/fga-eps-mds/2019.1-Gaia/issues/177
+1043,2019.1-Gaia,US15 - Eu como usuário desejo que a gaia me informe se um determinado esporte é favorável de ser realizado ou não ,"Nessa issue será realizado:
+- [x] Criar intents para esportes específicos
+- [x] Criar custom action
+- [x] Fazer busca no json
+- [x] Tratar respostas de favoráveis
+
+Critérios de aceitação:
+- [x] A Gaia deve entender quando o usuário perguntar se pode praticar esporte ""x"" em lugar ""y""
+- [x] A Gaia deve informar se praticar esporte x está 100% favorável, ou com ressalva ou com alerta
+- [x] Caso o esporte x perguntado pelo usuário esteja 0% favorável, a Gaia deve informar quais outras modalidades estão para aquele lugar informado",https://github.com/fga-eps-mds/2019.1-Gaia/issues/153
+1061,2019.1-Gaia,US12 - Eu como usuário desejo que o sistema retorne o local com mais acurácia e precisão,"Nessa issue será realizado:
+
+- [x] Pensar numa forma de tratamento
+- [x] Adição de uma nova rota no Local
+- [x] Mudanças nas respostas da Gaia
+
+Critérios de aceitação:
+- [x] Estar testado
+- [x] Eslint sem erros e warnings
+- [x] Exibir uma lista de locais com nomes similares ao que o usuário informou
+- [x] A Gaia deve fazer uma requisição ao microserviço Local para obter a lista supracitada
+- [x] A Gaia deve identificar qual opção escolhida pelo usuário
+- [x] A Gaia deve retornar o clima dessa localidade
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/127
+1064,2019.1-Gaia,US09 - Eu como usuário desejo que a Gaia forneça os dados corretos a respeito de clima,"Nessa issue será realizado:
+- [x] Adicionar slots nas entidades
+- [x] Tratar slots
+- [x] Configurar uma custom action genérica na Gaia
+- [x] Transformar custom action genérica em específica
+
+Critérios de aceitação:
+- [ ] Na mensagem de resposta da Gaia, inserir o local referente a esse clima
+- [ ] Exibir informações de temperatura, rajadas de vento, pressão atmosférica, umidade
+- [ ] Perguntar se o usuário deseja saber mais dados 
+- [ ] Se ele disser que sim, então exibir todos os outros dados advindos da API",https://github.com/fga-eps-mds/2019.1-Gaia/issues/124
+1065,2019.1-Gaia,US08 - Eu como usuário desejo que a Gaia me responda de forma coerente,"Nessa issue será realizado:
+- [ ] Diminuir o tamanho dos textos de resposta
+- [ ] Apresentar as funcionalidades do bot
+- [ ] Definir fluxo principal
+- [ ] Seguir fluxo principal de conversa
+
+Critérios de aceitação:
+- [ ] Respeitar o fluxo descrito no protótipo
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/123
+1077,2019.1-Gaia,US06: Eu como usuário desejo obter resposta plausíveis sempre que eu falar com a Gaia para que eu possa manter um diálogo ,"Nessa issue será realizado:
+- [x] Gaia responder tudo que é solicitado
+- [x] Analisar intents de usuário
+- [x] Melhorar fluxo de conversa
+
+Critérios de aceitação:
+- [ ] Não deixar o usuário sem uma resposta
+- [ ] Apresentar as funcionalidades do bot para que o usuário escolha o que deseja realizar
+- [ ] Concordância com a personalidade da Gaia
+- [ ] Tempo de resposta inferior a 4s",https://github.com/fga-eps-mds/2019.1-Gaia/issues/98
+1086,2019.1-Gaia,Analisar riscos do projeto,"Analisar riscos do projeto
+
+Nessa issue será realizado:
+- [x] Elencar os riscos do projeto
+- [x] Realizar a análise 
+- [x] Construir o planejamento de respostas aos riscos 
+
+Critérios de aceitação:
+- [x] Estar documentado na wiki
+- [x] Descrição dos riscos e ações para mitigá-los
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/73
+1096,2019.1-Gaia,US03: Eu como usuário desejo interagir com a Gaia para que ela me responda.,"US03: Eu como usuário desejo interagir com a Gaia para que ela me responda.
+
+Nessa issue será realizado:
+- [x] Definir Intents e Entities
+- [x] Treinar NLU
+- [x] Tratar Utters
+- [x] Treinar Core
+- [x] Criar Stories
+- [x] Simular conversa
+- [x] Dar deploy local no telegram
+- [x] Adicionar foto e BIO
+
+Critérios de aceitação:
+- [ ] Eslint sem erros e warnings
+- [ ] Estar testado 
+- [ ] Personalidade da Gaia inserida nos diálogos com usuário
+- [ ] Bio, imagem de perfil com a logo e @nome do bot preenchidos no telegram
+- [ ] Possuir, no mínimo, 10 mensagens de interação da Gaia para o usuário  
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/63
+1097,2019.1-Gaia,Conseguir autenticação com mongoose,"Já construí o esquema do mongoose, porém está dando falha na autenticação. Quando peço para retornar o erro pro console aparece a seguinte mensagem: 'command insert requires authentication', code: 13, codeName: 'Unauthorized ', name: 'MongoError'. É necessário passar alguma função admin?
+
+![dbfdd74f-accf-40b5-96e3-fb66476ae24b](https://user-images.githubusercontent.com/38709421/55594260-49775d80-5715-11e9-90c9-83e48a242db5.jpg)
+",https://github.com/fga-eps-mds/2019.1-Gaia/issues/45
+1145,2019.1-PyLearner,Refatorar maneira que bot responde suas ações,"- [ ] Bot responder de maneira conjunta todas suas ações, não uma por mensagem como está agora.",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/193
+1146,2019.1-PyLearner,Implementar scroll automático nas respostas do bot,Rocketchat deve descer para última mensagem quando o bot enviar uma nova mensagem.,https://github.com/fga-eps-mds/2019.1-PyLearner/issues/192
+1147,2019.1-PyLearner,Refatorar intent de despedida do bot,"Bot precisa se despedir corretamente quando o usuário se despedir. Atualmente o bot responde errado e muitas vezes entende como cumprimento quando o usuário se despede.
+- [x] Refatorar intent de despedida
+- [x] Testar intent",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/191
+1150,2019.1-PyLearner,Refatorar intent matplotlib,"Matplotlib não é um tópico que entra no escopo do Pyter no momento.
+- [ ] Contornar fluxo de conversa quando algum usuário pedir informações específicas sobre Matplotlib",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/188
+1159,2019.1-PyLearner,Refatoração e Aperfeiçoamento dos Fluxos de Conversa #5,"## Descrição 
+Com base nos testes levantados e analisados pelos membros de MDS, modificar o que for necessário para melhorar as métricas do fluxo de conversa do bot.
+## Critérios
+Caso seja necessário refatorar intents, actions e stories dos seguintes temas:
+
+- [x] Regressão Polinomial
+- [x] Score R2
+- [x] Stochastic Gradient Descent
+- [x] Support Vector Machines
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/179
+1160,2019.1-PyLearner,Refatoração e Aperfeiçoamento dos Fluxos de Conversa #4,"## Descrição 
+Com base nos testes levantados e analisados pelos membros de MDS, modificar o que for necessário para melhorar as métricas do fluxo de conversa do bot.
+## Critérios
+Caso seja necessário refatorar intents, actions e stories dos seguintes temas:
+
+- [x] K-means
+- [x] Dados Faltantes
+- [x] Naive Bayes
+- [x] Nearest Neighbors
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/178
+1161,2019.1-PyLearner,Refatoração e Aperfeiçoamento dos Fluxos de Conversa #3,"## Descrição 
+Com base nos testes levantados e analisados pelos membros de MDS, modificar o que for necessário para melhorar as métricas do fluxo de conversa do bot.
+## Critérios
+Caso seja necessário refatorar intents, actions e stories dos seguintes temas:
+
+- [x] Help 
+- [x] Histograma 
+- [x] Importação de Arquivos CSV
+- [x] Interações 
+- [x] Importação de Arquivos JSON
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/177
+1162,2019.1-PyLearner,Refatoração e Aperfeiçoamento dos Fluxos de Conversa #2,"## Descrição 
+Com base nos testes levantados e analisados pelos membros de MDS, modificar o que for necessário para melhorar as métricas do fluxo de conversa do bot.
+## Critérios
+Caso seja necessário refatorar intents, actions e stories dos seguintes temas:
+
+- [x] Correlation
+- [x] Decision Tree
+- [x] Explained Variance
+- [x] Feature Scaling
+- [x] Generalized Linear Models
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/176
+1163,2019.1-PyLearner,Refatoração e Aperfeiçoamento dos Fluxos de Conversa #1 ,"## Descrição 
+Com base nos testes levantados e analisados pelos membros de MDS, modificar o que for necessário para melhorar as métricas do fluxo de conversa do bot.
+## Critérios
+Caso seja necessário refatorar intents, actions e stories dos seguintes temas:
+
+- [x] Bayesian Regression
+- [x] Categorical Data
+- [x] Classification Metrics
+- [x] Classification Report
+- [x] Confusion Matrix",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/175
+1164,2019.1-PyLearner,Realização de Testes em Fluxos de Conversas #5,"## Descrição
+
+Realizar testes do fluxo de conversa através do script de testes disponível tendo por intuito analisar, detectar possíveis refatorações de intents, actions e stories dos fluxos em questão.
+
+## Critérios
+Analisar os seguintes fluxos:
+- [x] Regressão Polinomial
+- [x] Score R2
+- [x] Stochastic Gradient Descent
+- [x] Support Vector Machines
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/174
+1165,2019.1-PyLearner,Realização de Testes em Fluxos de Conversas #4,"## Descrição
+
+Realizar testes do fluxo de conversa através do script de testes disponível tendo por intuito analisar, detectar possíveis refatorações de intents, actions e stories dos fluxos em questão.
+
+## Critérios
+Analisar os seguintes fluxos:
+- [x] K-means
+- [x] Dados Faltantes
+- [x] Naive Bayes
+- [x] Nearest Neighbors
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/173
+1166,2019.1-PyLearner,Realização de Testes em Fluxos de Conversas #3,"## Descrição
+
+Realizar testes do fluxo de conversa através do script de testes disponível tendo por intuito analisar, detectar possíveis refatorações de intents, actions e stories dos fluxos em questão.
+
+## Critérios
+Analisar os seguintes fluxos:
+- [x] Help 
+- [x] Histograma 
+- [x] Importação de Arquivos CSV
+- [x] Interações 
+- [x] Importação de Arquivos JSON
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/172
+1167,2019.1-PyLearner,Realização de Testes em Fluxos de Conversas #2,"## Descrição
+
+Realizar testes do fluxo de conversa através do script de testes disponível tendo por intuito analisar, detectar possíveis refatorações de intents, actions e stories dos fluxos em questão.
+
+## Critérios
+Analisar os seguintes fluxos:
+- [x] Correlation
+- [x] Decision Tree
+- [x] Explained Variance
+- [x] Feature Scaling
+- [ ] Generalized Linear Models
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/171
+1168,2019.1-PyLearner,Realização de Testes em Fluxos de Conversas #1,"## Descrição
+
+Realizar testes do fluxo de conversa através do script de testes disponível tendo por intuito analisar, detectar possíveis refatorações de intents, actions e stories dos fluxos em questão.
+
+## Critérios
+Analisar os seguintes fluxos:
+- [x] Bayesian Regression
+- [x] Categorical Data
+- [x] Classification Metrics
+- [x] Classification Report
+- [x] Confusion Matrix
+
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/170
+1190,2019.1-PyLearner,"US23 - Eu, como usuário, gostaria de ter acesso às dúvidas recorrentes de Machine Learning ","- [x] Integrar API do StackOverflow/CrossValidated para que o Pyter possa sugerir dúvidas relacionadas destes sites.
+- [x] Implementar fluxos conversacionais que utilizem das APIs citadas.",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/148
+1192,2019.1-PyLearner,Popular teste end-to-end,"- [x] Popular testes com pelo menos um caso para cada `intent` tratada pelo Pyter
+~~- [ ] Fazer script rodar no `docker` dando sempre o resultado de interpretabilidade do Pyter para/com os testes mandados.~~",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/146
+1193,2019.1-PyLearner,Criar script para testes end-to-end,- [x] Script deve possuir funções que gerem automaticamente testes end-to-end a partir de uma lista de `intent`,https://github.com/fga-eps-mds/2019.1-PyLearner/issues/145
+1210,2019.1-PyLearner,"Refatoração de Intents, Actions e Stories","## Descrição
+Esta issue foi criada para dar um refinamento nas relações do usuário com o bot  para evitar eventuais erros durante a apresentação do projeto. Torna-se necessário mapear os possíveis erros de caminhos interações e respostas e corrigi-los para diminuir a porcentagem de respostas indesejadas nas situações propostas.
+## Critérios de Aceitação
+Para aceitação da issue, o bot deve ser treinado e as respostas adicionadas devem estar persistentes com as modificações implementadas.
+- [x] Adicionar/Refatorar Intents 
+- [x] Adicionar/Refatorar Actions
+- [x] Adicionar/Refatorar Stories
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/128
+1213,2019.1-PyLearner,US08 - Eu como usuário desejo saber quais modelos usar para um problema de classificação,"# US08 - Eu como usuário desejo saber quais modelos usar para um problema de classificação
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o material para que o usuário do bot possa tirar dúvidas com respeito a utilização de determinados modelos em problemas específicos de machine learning. 
+O responsável deverá tratar de todas as tarefas que compõe essa história de forma sequencial, para que essa seja completa, abordando a maior parte dos modelos e tipos de problemas que este pode solucionar
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [ ] Todo o dialogo do bot deve estar em português.
+- [ ] As respostas devem ser escritas de forma compreensível ao usuário.
+- [ ] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+- [ ] As respostas devem ser breves e objetivas, de forma a melhorar a usabilidade do bot
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Intents, actions e templates Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/125
+1214,2019.1-PyLearner,US17 - Eu como usuário desejo saber como visualizar uma matriz de confusão,"# US17 - Eu como usuário desejo saber como visualizar uma matriz de confusão
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o material para que o usuário do bot possa tirar dúvidas com respeito ao tópico de visualização de uma matriz de confusão
+O responsável deverá tratar de todas as tarefas que compõe essa história de forma sequencial, para que essa seja completa.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+- [x] As respostas devem ser breves e objetivas, de forma a melhorar a usabilidade do bot
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Intents, actions e templates Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/124
+1215,2019.1-PyLearner,US16 - Eu como usuário desejo saber como visualizar um relatório de classificação,"# US16 - Eu como usuário desejo saber como visualizar um relatório de classificação
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o material para que o usuário do bot possa tirar dúvidas com respeito ao tópico de visualização de um relatório de classificação
+O responsável deverá tratar de todas as tarefas que compõe essa história de forma sequencial, para que essa seja completa.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+- [x] As respostas devem ser breves e objetivas, de forma a melhorar a usabilidade do bot
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Intents, actions e templates Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/123
+1216,2019.1-PyLearner,US03 - Eu como usuário desejo saber como importar dados de um excel,"# US03 - Eu como usuário desejo saber como importar dados de um excel
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o material para que o usuário do bot possa tirar dúvidas com respeito a importação de dados de uma planilha no excel.
+O responsável deverá tratar de todas as tarefas que compõe essa história de forma sequencial, para que essa seja completa.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+- [x] As respostas devem ser breves e objetivas, de forma a melhorar a usabilidade do bot
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] Incrementar documentação de importação de dados
+- [x] Intents, actions e templates Criados
+- [x] Cenários e Histórias criadas
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/122
+1217,2019.1-PyLearner,US05 - Eu como usuário desejo saber como transformar dados categóricos,"# US05 - Eu como usuário desejo saber como transformar dados categóricos
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o material para que o usuário do bot possa tirar dúvidas com respeito ao tópico de transformação de dados categóricos.
+O responsável deverá tratar de todas as tarefas que compõe essa história de forma sequencial, para que essa seja completa.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+- [x] As respostas devem ser breves e objetivas, de forma a melhorar a usabilidade do bto
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Intents, Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/121
+1219,2019.1-PyLearner,EP08 - Tutoriais,"### Descrição:
+Este épico consiste nas em tudo relacionado às interações entre bot e usuário que não dizem respeito a informações técnicas. 
+
+Ao ser concluído, este épico disponibilizará no bot, a possibilidade do usuário e do bot interagirem entre si, por meio de conversa.
+
+### Histórias de Usuário
+- [x] US19 - Tutorial Machine Learning do Problema Iris Flower
+- [x] US 20 - Tutorial Machine Learning do Problema do Titanic
+- [x] US21 - Tutorial Machine Learning do Problema MINIST",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/119
+1221,2019.1-PyLearner,Adição de dados para melhoria do bot,"# Adição de dados para melhoria do bot
+---
+### Descrição:
+Após verificar a fluidez da conversa com o bot, foi possivel notar que faltam alguns detalhes para que ele responda melhor as duvidas. 
+
+### Critérios de Aceitação
+Critérios de aceitação para a Issue ser aceita.
+- [x] Nenhum erro de formatação
+- [x] Intents, stories e domain adicionados corretamente
+
+
+### Tarefas
+* Criação das intents:
+    - [x] Ajuda
+    - [x] Estado_bot
+    - [x] Sobre_jupyter
+    - [x] Sobre_Pyter
+* Criação das stories:
+    - [x] Ajuda
+    - [x] Estado_bot
+    - [x] Sobre_jupyter
+    - [x] Sobre_Pyter
+- [x] Adição das intents, actions e templates no domain
+- [x] Refatorar intent <b>cumprimentar</b>
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/117
+1222,2019.1-PyLearner,Refatoração dos dados para treinamento do bot,"## Refatoração dos dados para treinamento do bot
+
+### Descrição:
+Uma refatoração nos dados deve ser feita para um melhor fluxo de conversa do Bot. É esperado que ele responda melhor determinada duvida.
+
+### Critérios de Aceitação
+Critérios de aceitação para a Issue ser aceita.
+- [x] Todos os arquivos devidamente refatorados
+- [x] Nenhum erro de formatação
+
+### Tarefas
+Documentos que devem ser refatorados. As tarefas devem garantir o perfeito funcionamento da Issue.
+- [x] missing_data.md
+- [x] json_import.md
+- [x] interactions.md
+- [x] importacao_CSV.md
+- [x] histogram.md
+- [x] correlation.md
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/116
+1228,2019.1-PyLearner,Task TS01 - Treinamento do bot,"# Task TS01 - Treinamento do bot
+
+### Descrição:
+Nesta issue, o responsável deverá treinar o bot com os cenários correspondentes aos fluxos de conversação desenvolvidos nas  US's 1, 2, 4, 14 e 15. 
+
+### Critérios de Aceitação
+Para que essa issue seja aceita, é necessário que tenham sido treinados os cenários das:
+- [x] US01
+- [x] US02
+- [x] US04
+- [x] US14
+- [x] US15",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/110
+1230,2019.1-PyLearner,EP07 - Criação de Persona,"# EP07 - Criação de Personada
+---
+### Descrição:
+Este épico consiste nas em tudo relacionado às interações entre bot e usuário que não dizem respeito a informações técnicas. 
+
+Ao ser concluído, este épico disponibilizará no bot, a possibilidade do usuário e do bot interagirem entre si, por meio de conversa.
+
+### Histórias de Usuário
+- [ ] US18 - Eu como usuário desejo ter uma conversa com o bot de forma que a interação pareça real",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/108
+1234,2019.1-PyLearner,Task TS01 - Testar fluxos de conversação,"# Task TS01 - Testar fluxos de conversação
+---
+### Descrição:
+Nesta issue, o responsável ficará por testar todos os fluxos de conversção do bot desenvolvidos nas  US's 1, 2, 4, 14 e 15. Os fluxos devem corresponder aos criterios propostos em cada US individual.
+
+### Critérios de Aceitação
+Para que essa issue seja aceita, é necessário que tenham sido testados os cenários das:
+- [x] US01
+- [x] US02
+- [x] US04
+- [x] US14
+- [x] US15",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104
+1235,2019.1-PyLearner,Task US15 - Histórias,"# Task US15 - Histórias
+---
+### Descrição:
+Nessa task, necessária para completar a US15, o desenvolvedor deve criar as histórias para treinamento do chatbot.
+
+### Critérios de Aceitação
+- [x] As histórias devem ser adequadas aos intents criados
+- [x] As histórias devem ser elaboradas em português
+- [x] As histórias devem responder as perguntas com a informação correta
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/103
+1236,2019.1-PyLearner,Task US14 - Histórias,"# Task US14 - Histórias
+---
+### Descrição:
+Nessa task, necessária para completar a US14, o desenvolvedor deve criar as histórias para treinamento do chatbot.
+
+### Critérios de Aceitação
+- [ ] As histórias devem ser adequadas aos intents criados
+- [ ] As histórias devem ser elaboradas em português
+- [ ] As histórias devem responder as perguntas com a informação correta
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/102
+1237,2019.1-PyLearner,Task US04 - Histórias,"# Task US04 - Histórias
+---
+### Descrição:
+Nessa task, necessária para completar a US04, o desenvolvedor deve criar as histórias para treinamento do chatbot.
+
+### Critérios de Aceitação
+- [x] As histórias devem ser adequadas aos intents criados
+- [x] As histórias devem ser elaboradas em português
+- [x] As histórias devem responder as perguntas com a informação correta
+
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/101
+1238,2019.1-PyLearner,Task US02 - Histórias,"# Task US02 - Histórias
+---
+### Descrição:
+Nessa task, necessária para completar a US02, o desenvolvedor deve criar as histórias para treinamento do chatbot.
+
+### Critérios de Aceitação
+- [ ] As histórias devem ser adequadas aos intents criados
+- [ ] As histórias devem ser elaboradas em português
+- [ ] As histórias devem responder as perguntas com a informação correta
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/100
+1239,2019.1-PyLearner,Task US01 - Histórias,"# Task US01 - Histórias
+---
+### Descrição:
+Nessa task, necessária para completar a US01, o desenvolvedor deve criar as histórias para treinamento do chatbot.
+
+### Critérios de Aceitação
+- [ ] As histórias devem ser adequadas aos intents criados
+- [ ] As histórias devem ser elaboradas em português
+- [ ] As histórias devem responder as perguntas com a informação correta
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/99
+1246,2019.1-PyLearner,"Task US15 - Criação dos Intents, actions e templates","# Task US15 - Criação dos Intents, actions e templates
+---
+### Descrição:
+Nesta issue o desenvolvedor deverá levantar os intents a serem utilizados na(o)s histórias/cenários do RASA. Respostas para todos os possíveis tópicos a respeito do tema devem ser levantadas, por exemplo, dúvidas sobre porque aquilo é utilizado ou como utilizar, devem ser respondidas. Os intents devem ser baseados na documentação levantada na task de estudo.
+
+### Critérios de Aceitação
+Para a aceitação da issue, os intents devem ter, no mínimo:
+- [x] 3 Respostas para cada major tópico 
+- [x] Responder dúvidas não funcionais que o usuário possa ter a respeito do tema
+- [x] Responder de forma detalhada assim como de forma sucinta, como utilizar aquela determinada funcionalidade",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/92
+1247,2019.1-PyLearner,"Task US14 - Criação dos Intents, actions e templates","# Task US14 - Criação dos Intents, actions e templates
+---
+### Descrição:
+Nesta issue o desenvolvedor deverá levantar os intents a serem utilizados na(o)s histórias/cenários do RASA. Respostas para todos os possíveis tópicos a respeito do tema devem ser levantadas, por exemplo, dúvidas sobre porque aquilo é utilizado ou como utilizar, devem ser respondidas. Os intents devem ser baseados na documentação levantada na task de estudo.
+
+### Critérios de Aceitação
+Para a aceitação da issue, os intents devem ter, no mínimo:
+- [x] 3 Respostas para cada major tópico 
+- [x] Responder dúvidas não funcionais que o usuário possa ter a respeito do tema
+- [ ] Responder de forma detalhada assim como de forma sucinta, como utilizar aquela determinada funcionalidade",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/91
+1248,2019.1-PyLearner,"Task US04 - Criação dos Intents, actions e templates","# Task US04 - Criação dos Intents, actions e templates
+---
+### Descrição:
+Nesta issue o desenvolvedor deverá levantar os intents a serem utilizados na(o)s histórias/cenários do RASA. Respostas para todos os possíveis tópicos a respeito do tema devem ser levantadas, por exemplo, dúvidas sobre porque aquilo é utilizado ou como utilizar, devem ser respondidas. Os intents devem ser baseados na documentação levantada na task de estudo.
+
+### Critérios de Aceitação
+Para a aceitação da issue, os intents devem ter, no mínimo:
+- [x] 3 Respostas para cada major tópico 
+- [x] Responder dúvidas não funcionais que o usuário possa ter a respeito do tema
+- [x] Responder de forma detalhada assim como de forma sucinta, como utilizar aquela determinada funcionalidade",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/90
+1249,2019.1-PyLearner,Task US02 - Criação dos Intents,"# Task US02 - Criação dos Intents
+---
+### Descrição:
+Nesta issue o desenvolvedor deverá levantar os intents a serem utilizados na(o)s histórias/cenários do RASA. Respostas para todos os possíveis tópicos a respeito do tema devem ser levantadas, por exemplo, dúvidas sobre porque aquilo é utilizado ou como utilizar, devem ser respondidas. Os intents devem ser baseados na documentação levantada na task de estudo.
+
+### Critérios de Aceitação
+Para a aceitação da issue, os intents devem ter, no mínimo:
+- [ ] 3 Respostas para cada major tópico 
+- [ ] Responder dúvidas não funcionais que o usuário possa ter a respeito do tema
+- [ ] Responder de forma detalhada assim como de forma sucinta, como utilizar aquela determinada funcionalidade",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/89
+1250,2019.1-PyLearner,"Task US01 - Criação dos Intents, actions e templates","# Task US01 - Criação dos Intents
+---
+### Descrição:
+Nesta issue o desenvolvedor deverá levantar os intents a serem utilizados na(o)s histórias/cenários do RASA. Respostas para todos os possíveis tópicos a respeito do tema devem ser levantadas, por exemplo, dúvidas sobre porque aquilo é utilizado ou como utilizar, devem ser respondidas. Os intents devem ser baseados na documentação levantada na task de estudo.
+
+### Critérios de Aceitação
+Para a aceitação da issue, os intents devem ter, no mínimo:
+- [x] 3 Respostas para cada major tópico 
+- [x] Responder dúvidas não funcionais que o usuário possa ter a respeito do tema
+- [x] Responder de forma detalhada assim como de forma sucinta, como utilizar aquela determinada funcionalidade",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/88
+1257,2019.1-PyLearner,US15 - Eu como usuário desejo saber como visualizar o histograma das features,"# US15 - Eu como usuário desejo saber como visualizar o histograma das features 
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o código para o treinamento do bot no tópico de criação de um histograma, de forma que o usuário possa descobrir o balanceamento das features do dataset. 
+O desenvolvedor deverá produzir um artefato de documentação com um workflow de como aquilo que ele está fazendo para o bot funciona, criar os intents baseado nisso, os cenários baseado nos intents e então treinar o modelo.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/86)
+- [x] [Intents Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/92)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/103)
+- [ ] [Modelo treinado](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/79
+1258,2019.1-PyLearner,US14 - Eu como usuário desejo saber como fazer uma matriz de correção entre as variáveis,"# US14 - Eu como usuário desejo saber como fazer uma matriz de correção entre as variáveis 
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o código para o treinamento do bot no tópico de criação de uma matriz de correlação entre as variáveis do dataset, de forma a descobrir a correlação entre as features.
+O desenvolvedor deverá produzir um artefato de documentação com um workflow de como aquilo que ele está fazendo para o bot funciona, criar os intents baseado nisso, os cenários baseado nos intents e então treinar o modelo.
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [ ] Todo o dialogo do bot deve estar em português.
+- [ ] As respostas devem ser escritas de forma compreensível ao usuário.
+- [ ] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [ ] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/85)
+- [ ] [Intents Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/91)
+- [ ] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/102)
+- [ ] [Modelo treinado](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/78
+1259,2019.1-PyLearner,US04 - Eu como usuário desejo saber como lidar com dados faltantes,"# US04 - Eu como usuário desejo saber como lidar com dados faltantes
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o código para o treinamento do bot no tópico de tratamento de dados faltantes em um dataset de machine learning.
+O desenvolvedor deverá produzir um artefato de documentação com um workflow de como aquilo que ele está fazendo para o bot funciona, criar os intents baseado nisso, os cenários baseado nos intents e então treinar o modelo
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/84)
+- [x] [Intents Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/90)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/101)
+- [ ] [Modelo treinado](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/77
+1260,2019.1-PyLearner,US02 - Eu como usuário desejo saber como importar dados de um JSON,"# US02 - Eu como usuário desejo saber como importar dados de um JSON
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o código para o treinamento do bot no tópico de importação de dados, visando especificamente a importação de dados em JSON.
+O desenvolvedor deverá produzir um artefato de documentação com um workflow de como aquilo que ele está fazendo para o bot funciona, criar os intents baseado nisso, os cenários baseado nos intents e então treinar o modelo
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/83)
+- [x] [Intents Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/89)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/100)
+- [ ] [Modelo treinado](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/76
+1261,2019.1-PyLearner,US01 - Eu como usuário desejo saber como importar dados de um CSV,"# US01 - Eu como usuário desejo saber como importar dados de um CSV
+---
+### Descrição:
+Nessa história de usuário o desenvolvedor deverá preparar o código para o treinamento do bot no tópico de importação de dados, visando especificamente a importação de dados em CSV.
+O desenvolvedor deverá produzir um artefato de documentação com um workflow de como aquilo que ele está fazendo para o bot funciona, criar os intents baseado nisso, os cenários baseado nos intents e então treinar o modelo
+
+### Critérios de Aceitação
+Para a aceitação desta história, a entrega deve cumprir os seguintes critérios de aceitação:
+- [x] Todo o dialogo do bot deve estar em português.
+- [x] As respostas devem ser escritas de forma compreensível ao usuário.
+- [x] As respostas do bot devem ser funcionais e corretas de forma que o usuário seja capaz de usar a informação recebida sem problemas.
+
+
+### Tarefas
+Para a aceitação desta história, deve ter as seguintes tasks constituintes concluídas:
+- [x] [Documentação de Estudo do tema](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/82)
+- [x] [Intents Criados](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/88)
+- [x] [Cenários/Histórias criadas](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/99)
+- [ ] [Modelo treinado](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/104)
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/75
+1270,2019.1-PyLearner,TS 23 - Visualizar dados de treino,"# TS 23 - Visualizar dados de treino
+---
+### Descrição:
+Mapear cenarios e entidades do chatbot relativos ao módulo de interação por meio de historias. Modulo responsável por mensagens e respostas de saudação do bot.
+
+### Critérios de Aceitação
+- [ ] O arquivo de historias deve estar corretamente formatado para treinamento do bot.
+- [ ] As historias devem estar em português.
+
+### Tarefas
+- [ ] Criação de historia.
+- [ ] Validação de cenarios.
+- [ ] Validação de entidades.
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/66
+1271,2019.1-PyLearner,TS 22 - Preparar dados de treino,"# TS 22 - Preparar dados de treino
+---
+### Descrição:
+Preparar os arquivos de treino do chatbot relativos ao módulo de interação. Modulo responsável por mensagens e respostas de saudação do bot.
+
+### Critérios de Aceitação
+- [x] O arquivo de treino deve estar corretamente formatado para treinamento do bot.
+- [x] Os dados de treino devem estar em português.
+
+### Tarefas
+- [x] Criar intenções.
+- [x] Criar cenarios.
+",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/65
+1290,2019.1-PyLearner,Aplicar Questionário para o Público,"### Criação do Questionário
+O questionário em questão deve ser criado pelo Product Owner na ferramenta de preferência deste, utilizando as perguntas levantadas na [Issue#33](https://github.com/fga-eps-mds/2019.1-PyLearner/issues/33)
+### Divulgação do Questionário
+Toda a equipe deverá auxiliar o PO na divulgação do questionário, utilizando redes sociais e outros meios relevantes.
+### Aceitação da coleta
+Para que o esta issue seja aceita como completa, o questionário deve ter, no mínimo 50 respostas até o final da sprint, tendo como preferencia um valor de duas a três vezes o mínimo.
+
+#### Para acompanhamento de progresso, conforme a progressão das fases, devem ser preenchidas as caixas abaixo:
+- [x] Criação do questionário completa
+- [x] Divulgação do questionário completa
+- [ ] Quantidade mínima de respostas obtidas
+- [ ] Quantidade desejada de respostas obtidas",https://github.com/fga-eps-mds/2019.1-PyLearner/issues/34
+1326,2019.1-Tino,Explorar fluxo de menu de botões do Telegram,"Integrar as opções de menu de botões do Telegram com a opção de ajuda do Bot, algo que foi retornado por testers para melhorar o fluxo de conversação.
+
+- [x] Resposta no \ajuda
+- [x] Display do menu corretamente
+- [x] Fluxo completo de todas as respostas
+- [x] Personalidade inetgrada",https://github.com/fga-eps-mds/2019.1-Tino/issues/77
+1328,2019.1-Tino,Rodada 03 Testes de Impacto e Validação,"De acordo com os resultados da última sprint, testar novamente o Tino com as melhorias na conversação.
+
+Avaliar diversas Personas montadas com fluxos de conversação testados 
+
+- [x] Gabriel Ramalho 
+- [x] Ronaldo Silva
+- [x] Gabriel de Souza 
+- [x] Adriano
+- [x] Suite de testers disponíveis em um evento de usabilidade",https://github.com/fga-eps-mds/2019.1-Tino/issues/75
+1331,2019.1-Tino,Melhorar fluxos de conversação,"De acordo com o feecback dado pelos testers:
+
+- [x] Melhorar respostas out of scope
+- [x] Mapear ranges de salas e retornar indicativos de onde é a Sala
+- [x] Melhorar personalidade do bot em respostas 
+- [x] O que mais pode ajudar
+- [ ] Explorar opções do menu do telegram",https://github.com/fga-eps-mds/2019.1-Tino/issues/72
+1333,2019.1-Tino,Rodada 02 Testes de Impacto e Validação,"De acordo com os resultados da última sprint, testar novamente o Tino com as melhorias na conversação.
+
+- [x] Avaliar diversas Personas montadas com fluxos de conversação testados
+
+- [x] Gabriel Ramalho
+- [x] Ronaldo Silva
+- [x] Gabriel de Souza
+- [x] Adriano",https://github.com/fga-eps-mds/2019.1-Tino/issues/66
+1334,2019.1-Tino,Estender funcionalidade de professor,"## Descrição
+Há a necessidade de ajustes e melhorias na funcionalidade de professor, tais como a busca de um professor que é coordenador, tratamentos de exceções e testes para a garantia da qualidade.
+
+## Critérios de aceitação
+- [x] Adicionar mensagem de erro ao usuário quando não encontrar professor
+- [x] Estender tipo coordenador
+- [x] Testes",https://github.com/fga-eps-mds/2019.1-Tino/issues/65
+1352,2019.1-Tino,Melhorar o fluxo de conversa Lino,"## Descrição 
+**Eu**, como usuário, **desejo** manter uma conversa de forma natural com o bot
+
+## Tarefas 
+- [x] Refatorar todas as stories e fluxos de conversas
+
+## Criterios de aceitaçao
+- [x] A conversa deve se parecer o maximo com uma linguagem natural
+- [x] Explorar entities do rasa
+- [x] Explorar slots",https://github.com/fga-eps-mds/2019.1-Tino/issues/41
+1355,2019.1-Tino,Integrar bot com telegram,"## Descrição 
+**Eu**, como usuário, **desejo** conseguir conversar com o bot no telegram.
+
+## Tarefas 
+- [x] Integrar com telegram",https://github.com/fga-eps-mds/2019.1-Tino/issues/37
+1357,2019.1-Tino,Tratamento de resposta desconhecida,"## Descrição 
+**Eu**, como usuário, **desejo** falar alguma coisa aleatória e o Bot TIno deve ser capaz de manter uma conversação avisando que não consegue entender
+
+## Tarefas 
+- [x] Falar com o bot alguma coisa aleatória
+- [x] Bot deve responder que não entendeu e continuar a conversa",https://github.com/fga-eps-mds/2019.1-Tino/issues/35
+1358,2019.1-Tino,Iniciar conversação com bot,"## Descrição 
+**Eu**, como usuário, **desejo** conseguir iniciar uma conversação com o bot Tino e desejo receber uma resposta
+
+## Tarefas 
+- [x] Responder primeira iteração do usuário com o bot  
+- [x] Colocar pelo menos 5 possiveis respostas para primeira iteração (pt-br)
+- [x] Criar collection com o nome ""usuarios""
+- [x] Salvar dados no mongo (salvar o chat_id do usuário e o username)
+",https://github.com/fga-eps-mds/2019.1-Tino/issues/34
+1391,2019.2-GloriaBot,Reparo no diálogo,"## Descrição da Issue
+
+Consertar quebra de diálogo
+
+### Tasks
+
+- [x] Consertar os bugs presente no fluxo da conversa
+
+### Critérios de aceitação
+
+- [x] Não quebrar diálogo",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/152
+1393,2019.2-GloriaBot,Hotfix diálogo,"## Descrição da Issue
+
+Melhoria no fluxo de conversa
+
+### Tasks
+
+- [x] Melhorar diálogo
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/150
+1396,2019.2-GloriaBot,Mudanças das intents,"### Descrição
+
+Melhoria das intentes do bot
+
+## Tasks
+
+- [x] Criar novas intents
+- [x] Atualizar intents existentes
+
+## Critérios de aceitação
+
+- [x] Bot funcional com a atualização das intents",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/145
+1398,2019.2-GloriaBot,Criação de uma reposta padrão caso o bot não entenda,"## Descrição da Issue
+
+Melhoria no fluxo de conversa
+
+### Tasks
+
+- [ ] Melhorar diálogo
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/143
+1399,2019.2-GloriaBot,Aguentam relação violenta - Aprimoramento,"## Descrição da Issue
+
+Melhoria no fluxo de conversa
+
+### Tasks
+
+- [ ] Melhorar diálogo
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/142
+1400,2019.2-GloriaBot,Refatorar diálogo - Aguentam relação violenta,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/141
+1401,2019.2-GloriaBot,Refatorar diálogo - Caso o agressor conheça minha rotina,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/140
+1402,2019.2-GloriaBot,Rafatorar diálogo - Caso o agressor obrigue práticas sexuais,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/139
+1403,2019.2-GloriaBot,Refatorar diálogo - Caso o agressor aparente ser maluco,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/138
+1404,2019.2-GloriaBot,Refatorar diálogo - Caso o agressor tenha pensamentos suicidas,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/137
+1405,2019.2-GloriaBot,Refatorar diálogo - Caso o agressor beba,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/136
+1406,2019.2-GloriaBot,Refatorar os diálogos: Caso o agressor tenha algum recurso para encontrar a vítima se ela o deixar,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [x] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/135
+1407,2019.2-GloriaBot,Refatorar os diálogos: Caso o agressor tenha ameaçado os filhos da vítima,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [ ] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/134
+1408,2019.2-GloriaBot,Refatorar os diálogos: Caso o agressor tenha ameaçado a vítima se ela o deixasse,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/133
+1409,2019.2-GloriaBot,Refatorar os diálogos: Caso a vítima tenha tentado deixar o agressor,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e consertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [ ] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [ ] Deixar a conversa mais fluida
+- [ ] Consertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/132
+1410,2019.2-GloriaBot,Refatorar Diálogos: Agressor tenta controlar a minha vida,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e concertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [x] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Concertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/131
+1411,2019.2-GloriaBot,Refatorar diálogos: Caso o agressor já tenha sido preso,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e concertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [x] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Concertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/130
+1412,2019.2-GloriaBot,Refatorar os diálogos: Caso o agressor possua uma faca,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e concertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [x] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Concertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/129
+1413,2019.2-GloriaBot,Refatorar os diálogos: Medição da gravidade do Risco,"## Descrição da Issue
+
+Melhoria no fluxo de conversa e concertar os bugs presentes nos diálogos
+
+### Tasks
+
+- [x] Melhorar diálogo
+- [x] Acertar os esquemas entre conversas
+
+### Critérios de aceitação
+
+- [x] Deixar a conversa mais fluida
+- [x] Concertar os bugs presente no fluxo da conversa",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/128
+1433,2019.2-GloriaBot,Melhor interligação entre diálogos,"### Descrição da issue:
+
+Melhorar a ligação entre os diálogos para tornar a conversa mais natural.
+
+#### Tasks
+
+- [x] Criar uma forma da Glória conseguir conduzir a conversa de maneira fluida.
+- [x] Ligar tópicos diferentes
+
+#### Critérios de aceitação
+
+- [x] Tornar a conversa mais agradável
+- [x] Tornar a conversa aparentemente diversificada",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/91
+1438,2019.2-GloriaBot, Melhor Fluxo de conversa de Dez mitos sobre a violência Doméstica,"Nessa issue será realizado:
+- [x]  Ajustar falas da Glória para perguntas sobre mito 1
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 2
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 3
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 4
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 5
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 6
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 7
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 8
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 9
+- [x]  Ajustar falas da Glória para perguntas sobre o mito 10
+ 
+Critérios de aceitação:
+- [x] Menor robotização da conversa
+- [x] Melhor interatividade com usuário no diálogo  mito 1
+- [x] Melhor interatividade com usuário no diálogo  mito 2
+- [x] Melhor interatividade com usuário no diálogo  mito 3
+- [x] Melhor interatividade com usuário no diálogo  mito 4
+- [x] Melhor interatividade com usuário no diálogo  mito 5
+- [x] Melhor interatividade com usuário no diálogo  mito 6
+- [x] Melhor interatividade com usuário no diálogo  mito 7
+- [x] Melhor interatividade com usuário no diálogo  mito 8
+- [x] Melhor interatividade com usuário no diálogo  mito 9
+- [x] Melhor interatividade com usuário no diálogo  mito 10
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/71
+1442,2019.2-GloriaBot,Implementação dos slots ,"Nessa issue será realizado:
+- [x] Estudo da forma de implementação dos slots dentro do rasa 
+- [x] Teste e verificação de formas de melhoria dos slots nas conversas   
+Critérios de aceitação:
+- [x]  Implementar e verificar o desempenho exercido dos slots nos diálogos
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/67
+1444,2019.2-GloriaBot,Melhorar fluxo de conversa de sinais de antecipação da violência,"**Melhorar fluxo de conversa de sinais de antecipação da violência**
+Nessa issue será realizado:
+- [x] Ajustar falas para o Telegram
+- [x] Criar novas stories
+- [x] Orientar de forma mais concisa
+Critérios de aceitação:
+- [x] Melhor interatividade com usuário
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/64
+1445,2019.2-GloriaBot,Melhorar fluxo de conversa de origens da violência,"**Melhorar fluxo de conversa de origens da violência**
+Nessa issue será realizado:
+- [x] Ajustar falas para o Telegram
+- [x] Criar novas stories
+Critérios de aceitação:
+- [x] Melhor interatividade com usuário
+- [x] Menor robotização da conversa
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/63
+1451,2019.2-GloriaBot,Implementação do MongoDB,"Nesta issue deverá ser feito:
+- [x] implementado o mogodb no docker-compose 
+Critério de avaliação:
+- [x] Armazenamento das conversar em bando de dados vinculado com rasa ",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/56
+1453,2019.2-GloriaBot,Melhorar  Fluxo de conversa de Quem agride e quem é agredido,"**Melhorar  Fluxo de conversa de Quem agride e quem é agredido**
+Nessa issue será realizado:
+ - [x] Ajustar falas da Glória para respostas afirmativos 
+ - [x] Ajustar falas da Glória para resposta negativas
+ - [x] Criar novas stories
+Critérios de aceitação:
+  - [x] Melhor interatividade com usuário
+   - [x]  Bot ter resposta para falas afirmativas
+-  [x] Bot ter resposta para falas negativas
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/54
+1454,2019.2-GloriaBot,Melhorar  fluxo de conversa de orientações sobre os direitos da mulher,"**Melhorar fluxo de conversa de orientações sobre os direitos da mulher**
+Nessa issue será realizado:
+- [x] Ajustar falas para o Telegram
+- [x] Criar novas stories
+Critérios de aceitação:
+- [x] Melhor interatividade com usuário
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/53
+1455,2019.2-GloriaBot,Melhorar fluxo de conversa de delegacias da mulher,"**Melhorar fluxo de conversa de delegacias da mulher**
+Nessa issue será realizado:
+
+- [x] Melhorar a indicação da delegacia da mulher no diálogo
+- [x] Criar novas stories
+
+Critérios de aceitação:
+
+- [x] Melhor interatividade com usuário
+",https://github.com/fga-eps-mds/2019.2-GloriaBot/issues/52
